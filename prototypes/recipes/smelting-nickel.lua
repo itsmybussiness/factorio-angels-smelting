@@ -53,7 +53,7 @@ data:extend(
     {
     type = "recipe",
     name = "processed-nickel-smelting",
-    category = "blast-smelting",
+    category = "chemical-smelting",
 	subgroup = "angels-nickel",
     energy_required = 6,
 	enabled = "false",

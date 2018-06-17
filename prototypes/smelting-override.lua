@@ -32,7 +32,7 @@ local intermediatemulti = angelsmods.marathon.intermediatemulti
 	OV.global_replace_item("angels-plate-copper", "copper-plate")
 	table.insert(data.raw["item"]["angels-plate-copper"].flags,"hidden")
 	OV.global_replace_item("angels-wire-copper", "copper-cable")
-	table.insert(data.raw["item"]["angels-plate-copper"].flags,"hidden")
+	table.insert(data.raw["item"]["angels-wire-copper"].flags,"hidden")
 
 --OVERRIDE FOR ANGELS
 	if angelsmods.refining then
@@ -58,22 +58,18 @@ end
 
 --ENABLE PRODUCTIVITY
 	angelsmods.functions.allow_productivity("angels-plate-aluminium")
-	angelsmods.functions.allow_productivity("roll-aluminium-casting")
-	angelsmods.functions.allow_productivity("roll-aluminium-casting-fast")
+	angelsmods.functions.allow_productivity("roll-aluminium-converting")
 
 	angelsmods.functions.allow_productivity("angels-plate-chrome")
 
 	angelsmods.functions.allow_productivity("angels-plate-cobalt")
 
 	angelsmods.functions.allow_productivity("angels-plate-copper")
-	angelsmods.functions.allow_productivity("angels-wire-coil-copper-casting")
-	angelsmods.functions.allow_productivity("angels-wire-coil-copper-casting-fast")
-	angelsmods.functions.allow_productivity("roll-copper-casting")	
-	angelsmods.functions.allow_productivity("roll-copper-casting-fast")
+	angelsmods.functions.allow_productivity("angels-wire-coil-copper-converting")
+	angelsmods.functions.allow_productivity("roll-copper-converting")
 	
 	angelsmods.functions.allow_productivity("angels-plate-gold")
-	angelsmods.functions.allow_productivity("angels-wire-coil-gold-casting")
-	angelsmods.functions.allow_productivity("angels-wire-coil-gold-casting-fast")
+	angelsmods.functions.allow_productivity("angels-wire-coil-gold-converting")
 
 	angelsmods.functions.allow_productivity("angels-plate-iron")
 	angelsmods.functions.allow_productivity("roll-iron-casting")	
@@ -86,32 +82,28 @@ end
 	angelsmods.functions.allow_productivity("angels-plate-nickel")
 
 	angelsmods.functions.allow_productivity("angels-plate-platinum")
-	angelsmods.functions.allow_productivity("angels-wire-coil-platinum-casting")
-	angelsmods.functions.allow_productivity("angels-wire-coil-platinum-casting-fast")
+	angelsmods.functions.allow_productivity("angels-wire-coil-platinum-converting")
 
 	angelsmods.functions.allow_productivity("angels-plate-silicon")
 
 	angelsmods.functions.allow_productivity("angels-plate-silver")
-	angelsmods.functions.allow_productivity("angels-wire-coil-silver-casting")
-	angelsmods.functions.allow_productivity("angels-wire-coil-silver-casting-fast")
+	angelsmods.functions.allow_productivity("angels-wire-coil-silver-converting")
 
 	angelsmods.functions.allow_productivity("angels-plate-tin")
-	angelsmods.functions.allow_productivity("angels-wire-coil-tin-casting")
-	angelsmods.functions.allow_productivity("angels-wire-coil-tin-casting-fast")
+	angelsmods.functions.allow_productivity("angels-wire-coil-tin-converting")
 
 	angelsmods.functions.allow_productivity("angels-plate-titanium")
-	angelsmods.functions.allow_productivity("roll-titanium-casting")
-	angelsmods.functions.allow_productivity("roll-titanium-casting-fast")
+	angelsmods.functions.allow_productivity("angels-roll-titanium-converting")
 
 	angelsmods.functions.allow_productivity("angels-plate-tungsten")
 
 	angelsmods.functions.allow_productivity("angels-plate-zinc")
 
 	angelsmods.functions.allow_productivity("angels-plate-steel")
-	angelsmods.functions.allow_productivity("angels-roll-steel-casting")
-	angelsmods.functions.allow_productivity("angels-roll-steel-casting-fast")
+	angelsmods.functions.allow_productivity("angels-roll-steel-converting")
 
 	angelsmods.functions.allow_productivity("angels-solder")
+	angelsmods.functions.allow_productivity("angels-solder-converting")
 	
 	angelsmods.functions.allow_productivity("angels-clay-brick")
 	angelsmods.functions.allow_productivity("angels-concrete")

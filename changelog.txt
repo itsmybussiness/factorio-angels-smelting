@@ -1,3 +1,10 @@
+--0.3.12
+-shifted productivity for coils from strand casting to converting/cutting
+-strand casting with coolant received small productivity boost
+-shifted plate and wire items to the matching smelting tabs
+-changed nickel cathode recipe to chemical furnace
+-added recipe to void coolant to clarifier
+
 --0.3.11
 -changed coolant cycle: removed one intermediate recipe (will break current setups)
 -shifted metal mixing furnace to electronics tech

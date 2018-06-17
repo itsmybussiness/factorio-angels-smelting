@@ -152,8 +152,8 @@ data:extend(
 		enabled = "false",
 		energy_required = 2,
 		ingredients ={
-			{type="fluid", name="liquid-molten-tin", amount=80},
-			{type="fluid", name="liquid-molten-copper", amount=80},
+			{type="fluid", name="liquid-molten-tin", amount=70},
+			{type="fluid", name="liquid-molten-copper", amount=70},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
 		},
 		results={
@@ -167,8 +167,8 @@ data:extend(
 		enabled = "false",
 		energy_required = 2,
 		ingredients ={
-			{type="fluid", name="liquid-molten-tin", amount=100 * intermediatemulti},
-			{type="fluid", name="liquid-molten-copper", amount=100 * intermediatemulti},
+			{type="fluid", name="liquid-molten-tin", amount=90 * intermediatemulti},
+			{type="fluid", name="liquid-molten-copper", amount=90 * intermediatemulti},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
 		},
 		results={

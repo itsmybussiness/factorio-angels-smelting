@@ -64,25 +64,7 @@ data:extend(
     icon = "__angelssmelting__/graphics/icons/plate-copper.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "angels-copper-casting",
-    order = "f",
-    stack_size = 200
-  },
-  {
-    type = "item",
-    name = "angels-wire-coil-copper",
-    icon = "__angelssmelting__/graphics/icons/wire-coil-copper.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "angels-copper-casting",
-    order = "g",
-    stack_size = 200
-  },
-  {
-    type = "item",
-    name = "angels-wire-copper",
-    icon = "__angelssmelting__/graphics/icons/wire-copper.png",
-    flags = {"goes-to-main-inventory"},
-    subgroup = "angels-copper-casting",
-    order = "h",
+    order = "a",
     stack_size = 200
   },
   {
@@ -91,8 +73,27 @@ data:extend(
     icon = "__angelssmelting__/graphics/icons/roll-copper.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "angels-copper-casting",
-    order = "i",
+    order = "b",
     stack_size = 200
   },
+  {
+    type = "item",
+    name = "angels-wire-coil-copper",
+    icon = "__angelssmelting__/graphics/icons/wire-coil-copper.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "angels-copper-casting",
+    order = "c",
+    stack_size = 200
+  },
+  {
+    type = "item",
+    name = "angels-wire-copper",
+    icon = "__angelssmelting__/graphics/icons/wire-copper.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "angels-copper-casting",
+    order = "d",
+    stack_size = 200
+  },
+
 }
 )

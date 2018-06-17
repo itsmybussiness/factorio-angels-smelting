@@ -12,4 +12,5 @@ if angelsmods.refining then
 	angelsmods.functions.make_void("gas-tungsten-hexafluoride", "chemical")
 	angelsmods.functions.make_void("liquid-hexafluorosilicic-acid", "chemical")
 	angelsmods.functions.make_void("liquid-tungstic-acid", "chemical")
+	angelsmods.functions.make_void("liquid-coolant", "water")
 end

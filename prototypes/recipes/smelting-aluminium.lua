@@ -276,7 +276,7 @@ data:extend(
 		enabled = "false",
 		energy_required = 2,
 		ingredients ={
-			{type="fluid", name="liquid-molten-aluminium", amount=160},
+			{type="fluid", name="liquid-molten-aluminium", amount=140},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
 		},
 		results={
@@ -290,7 +290,7 @@ data:extend(
 		enabled = "false",
 		energy_required = 2,
 		ingredients ={
-			{type="fluid", name="liquid-molten-aluminium", amount=200 * intermediatemulti},
+			{type="fluid", name="liquid-molten-aluminium", amount=180 * intermediatemulti},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
 		},
 		results={
