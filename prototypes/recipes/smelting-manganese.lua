@@ -162,16 +162,17 @@ data:extend(
     name = "angels-plate-manganese",
     category = "casting",
 	subgroup = "angels-manganese-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-manganese", amount=40}},
 	  results={{type="item", name="angels-plate-manganese", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-manganese", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-manganese", amount=4}},
     },

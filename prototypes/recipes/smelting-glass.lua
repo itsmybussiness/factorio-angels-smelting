@@ -97,10 +97,10 @@ data:extend(
     name = "angels-plate-glass-1",
     category = "casting",
 	subgroup = "angels-glass-casting",
-    energy_required = 4,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 		  {type="fluid", name="liquid-molten-glass", amount=40},
 		},
@@ -112,6 +112,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 		  {type="fluid", name="liquid-molten-glass", amount=50 * intermediatemulti},
 		},
@@ -138,10 +139,10 @@ data:extend(
     name = "angels-plate-glass-2",
     category = "casting",
 	subgroup = "angels-glass-casting",
-    energy_required = 3,
 	normal =
     {
 		enabled = "false",
+		energy_required = 3,
 		ingredients ={
 		  {type="fluid", name="liquid-molten-glass", amount=40},
 		  {type="fluid", name="liquid-molten-lead", amount=20},
@@ -156,6 +157,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 3,
 		ingredients ={
 		  {type="fluid", name="liquid-molten-glass", amount=50 * intermediatemulti},
 		  {type="fluid", name="liquid-molten-lead", amount=20},
@@ -185,10 +187,10 @@ data:extend(
     name = "angels-plate-glass-3",
     category = "casting",
 	subgroup = "angels-glass-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 		  {type="fluid", name="liquid-molten-glass", amount=40},
 		  {type="fluid", name="liquid-molten-tin", amount=20},
@@ -204,6 +206,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 		  {type="fluid", name="liquid-molten-glass", amount=50 * intermediatemulti},
 		  {type="fluid", name="liquid-molten-tin", amount=20},
@@ -234,10 +237,10 @@ data:extend(
     name = "angels-coil-glass-fiber",
     category = "strand-casting",
 	subgroup = "angels-glass-casting",
-    energy_required = 4,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 		  {type="fluid", name="liquid-molten-glass", amount=80},
 		},
@@ -249,6 +252,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 		  {type="fluid", name="liquid-molten-glass", amount=100 * intermediatemulti},
 		},

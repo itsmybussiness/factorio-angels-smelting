@@ -1,3 +1,6 @@
+--0.3.7
+-fixed crafting time for updated recipes
+
 --0.3.6
 -fixed typo in brass and bronze recipe
 -added productivity limitations to additional recipes

@@ -151,16 +151,17 @@ data:extend(
     name = "angels-plate-steel",
     category = "casting",
 	subgroup = "angels-steel-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-steel", amount=40}},
 	  results={{type="item", name="angels-plate-steel", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-steel", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-steel", amount=4}},
     },
@@ -181,10 +182,10 @@ data:extend(
     name = "angels-roll-steel-casting",
     category = "strand-casting",
 	subgroup = "angels-steel-casting",
-    energy_required = 4,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-steel", amount=80},
 			{type="fluid", name="water", amount=40},
@@ -194,6 +195,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-steel", amount=100 * intermediatemulti},
 			{type="fluid", name="water", amount=40},
@@ -218,10 +220,10 @@ data:extend(
     name = "angels-roll-steel-casting-fast",
     category = "strand-casting",
 	subgroup = "angels-steel-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-steel", amount=160},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
@@ -235,6 +237,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-steel", amount=200 * intermediatemulti},
 			{type="fluid", name="liquid-coolant-used", amount=40},
@@ -394,10 +397,10 @@ data:extend(
     name = "roll-solder-casting",
     category = "strand-casting",
 	subgroup = "angels-solder-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-solder", amount=80},
 			{type="fluid", name="water", amount=40},
@@ -407,6 +410,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-solder", amount=100 * intermediatemulti},
 			{type="fluid", name="water", amount=40},
@@ -431,10 +435,10 @@ data:extend(
     name = "roll-solder-casting-fast",
     category = "strand-casting",
 	subgroup = "angels-solder-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-solder", amount=160},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
@@ -448,6 +452,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-solder", amount=200 * intermediatemulti},
 			{type="fluid", name="liquid-coolant-used", amount=40},
@@ -476,16 +481,17 @@ data:extend(
     name = "angels-solder",
     category = "casting",
 	subgroup = "angels-solder-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-solder", amount=40}},
 	  results={{type="item", name="angels-solder", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-solder", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-solder", amount=4}},
     },

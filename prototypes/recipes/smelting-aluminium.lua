@@ -233,10 +233,10 @@ data:extend(
     name = "roll-aluminium-casting",
     category = "strand-casting",
 	subgroup = "angels-aluminium-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-aluminium", amount=80},
 			{type="fluid", name="water", amount=40},
@@ -246,6 +246,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-aluminium", amount=100 * intermediatemulti},
 			{type="fluid", name="water", amount=40},
@@ -270,10 +271,10 @@ data:extend(
     name = "roll-aluminium-casting-fast",
     category = "strand-casting",
 	subgroup = "angels-aluminium-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-aluminium", amount=160},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
@@ -287,6 +288,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-aluminium", amount=200 * intermediatemulti},
 			{type="fluid", name="liquid-coolant-used", amount=40},
@@ -315,16 +317,17 @@ data:extend(
     name = "angels-plate-aluminium",
     category = "casting",
 	subgroup = "angels-aluminium-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-aluminium", amount=40}},
 	  results={{type="item", name="angels-plate-aluminium", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-aluminium", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-aluminium", amount=4}},
     },

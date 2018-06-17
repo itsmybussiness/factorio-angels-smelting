@@ -270,10 +270,10 @@ data:extend(
     name = "roll-titanium-casting",
     category = "strand-casting",
 	subgroup = "angels-titanium-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-titanium", amount=80},
 			{type="fluid", name="water", amount=40},
@@ -283,6 +283,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-titanium", amount=100 * intermediatemulti},
 			{type="fluid", name="water", amount=40},
@@ -307,10 +308,10 @@ data:extend(
     name = "roll-titanium-casting-fast",
     category = "strand-casting",
 	subgroup = "angels-titanium-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-titanium", amount=160},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
@@ -324,6 +325,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-titanium", amount=200 * intermediatemulti},
 			{type="fluid", name="liquid-coolant-used", amount=40},
@@ -352,16 +354,17 @@ data:extend(
     name = "angels-plate-titanium",
     category = "casting",
 	subgroup = "angels-titanium-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-titanium", amount=40}},
 	  results={{type="item", name="angels-plate-titanium", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-titanium", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-titanium", amount=4}},
     },

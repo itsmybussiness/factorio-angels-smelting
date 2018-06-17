@@ -169,16 +169,17 @@ data:extend(
     name = "angels-plate-lead",
     category = "casting",
 	subgroup = "angels-lead-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-lead", amount=40}},
 	  results={{type="item", name="angels-plate-lead", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-lead", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-lead", amount=4}},
     },

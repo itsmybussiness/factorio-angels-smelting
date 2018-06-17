@@ -152,16 +152,17 @@ data:extend(
     name = "angels-plate-silicon",
     category = "casting",
 	subgroup = "angels-silicon-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-silicon", amount=40}},
 	  results={{type="item", name="angels-plate-silicon", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-silicon", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-silicon", amount=4}},
     },

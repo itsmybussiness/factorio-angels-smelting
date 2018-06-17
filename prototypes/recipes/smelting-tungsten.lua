@@ -197,16 +197,17 @@ data:extend(
     name = "angels-plate-tungsten",
     category = "sintering",
 	subgroup = "angels-tungsten-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="item", name="casting-powder-tungsten", amount=12}},
 	  results={{type="item", name="angels-plate-tungsten", amount=12}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="item", name="casting-powder-tungsten", amount=15 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-tungsten", amount=12}},
     },

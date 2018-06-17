@@ -171,16 +171,17 @@ data:extend(
     name = "angels-plate-chrome",
     category = "casting",
 	subgroup = "angels-chrome-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-chrome", amount=40}},
 	  results={{type="item", name="angels-plate-chrome", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-chrome", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-chrome", amount=4}},
     },

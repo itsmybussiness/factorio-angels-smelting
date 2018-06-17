@@ -107,10 +107,10 @@ data:extend(
     name = "angels-wire-coil-tin-casting",
     category = "strand-casting",
 	subgroup = "angels-tin-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-tin", amount=40},
 			{type="fluid", name="liquid-molten-copper", amount=40},
@@ -121,6 +121,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-tin", amount=50 * intermediatemulti},
 			{type="fluid", name="liquid-molten-copper", amount=50 * intermediatemulti},
@@ -146,10 +147,10 @@ data:extend(
     name = "angels-wire-coil-tin-casting-fast",
     category = "strand-casting",
 	subgroup = "angels-tin-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-tin", amount=80},
 			{type="fluid", name="liquid-molten-copper", amount=80},
@@ -164,6 +165,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-tin", amount=100 * intermediatemulti},
 			{type="fluid", name="liquid-molten-copper", amount=100 * intermediatemulti},
@@ -194,16 +196,17 @@ data:extend(
     name = "angels-plate-tin",
     category = "casting",
 	subgroup = "angels-tin-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-tin", amount=40}},
 	  results={{type="item", name="angels-plate-tin", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-tin", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-tin", amount=4}},
     },

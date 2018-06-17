@@ -141,16 +141,17 @@ data:extend(
     name = "angels-plate-nickel",
     category = "casting",
 	subgroup = "angels-nickel-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-nickel", amount=40}},
 	  results={{type="item", name="angels-plate-nickel", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-nickel", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-nickel", amount=4}},
     },

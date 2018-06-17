@@ -124,10 +124,10 @@ data:extend(
     name = "angels-wire-coil-copper-casting",
     category = "strand-casting",
 	subgroup = "angels-copper-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-copper", amount=80},
 			{type="fluid", name="water", amount=40},
@@ -137,6 +137,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-copper", amount=100 * intermediatemulti},
 			{type="fluid", name="water", amount=40},
@@ -161,10 +162,10 @@ data:extend(
     name = "angels-wire-coil-copper-casting-fast",
     category = "strand-casting",
 	subgroup = "angels-copper-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-copper", amount=160},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
@@ -178,6 +179,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-copper", amount=200 * intermediatemulti},
 			{type="fluid", name="liquid-coolant-used", amount=40},
@@ -206,10 +208,10 @@ data:extend(
     name = "roll-copper-casting",
     category = "strand-casting",
 	subgroup = "angels-copper-casting",
-    energy_required = 2,
 	normal =
     {
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-copper", amount=80},
 			{type="fluid", name="water", amount=40},
@@ -219,6 +221,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 4,
 		ingredients ={
 			{type="fluid", name="liquid-molten-copper", amount=100 * intermediatemulti},
 			{type="fluid", name="water", amount=40},
@@ -247,6 +250,7 @@ data:extend(
 	normal =
     {
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-copper", amount=160},
 			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
@@ -260,6 +264,7 @@ data:extend(
     expensive =
 	{
 		enabled = "false",
+		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-copper", amount=200 * intermediatemulti},
 			{type="fluid", name="liquid-coolant-used", amount=40},
@@ -292,12 +297,14 @@ data:extend(
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-copper", amount=40}},
 	  results={{type="item", name="angels-plate-copper", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-copper", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-copper", amount=4}},
     },

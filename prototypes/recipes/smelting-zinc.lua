@@ -153,16 +153,17 @@ data:extend(
     name = "angels-plate-zinc",
     category = "casting",
 	subgroup = "angels-zinc-casting",
-    energy_required = 4,
 	normal =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-zinc", amount=40}},
 	  results={{type="item", name="angels-plate-zinc", amount=4}},
     },
     expensive =
     {
 	  enabled = "false",
+	  energy_required = 4,
 	  ingredients ={{type="fluid", name="liquid-molten-zinc", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-zinc", amount=4}},
     },
