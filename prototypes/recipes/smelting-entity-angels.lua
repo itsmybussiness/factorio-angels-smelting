@@ -258,9 +258,9 @@ angelsmods.functions.RB.build({
       ingredients =
       {
 		{"powdermix-1", 1},
-		{"t1-plate", 1},
-		{"t1-gears", 1},
-		{"t1-brick", 1},
+		{"t2-plate", 1},
+		{"t2-gears", 1},
+		{"t2-brick", 1},
       },
       result= "powder-mixer",
     },
@@ -271,9 +271,9 @@ angelsmods.functions.RB.build({
       ingredients =
       {
 		{"powdermix-1", 1},
-		{"t1-plate", 1 * buildingmulti},
-		{"t1-gears", 1 * buildingmulti},
-		{"t1-brick", 1 * buildingmulti},
+		{"t2-plate", 1 * buildingmulti},
+		{"t2-gears", 1 * buildingmulti},
+		{"t2-brick", 1 * buildingmulti},
       },
       result= "powder-mixer",
     },
@@ -288,9 +288,9 @@ angelsmods.functions.RB.build({
       ingredients =
       {
 		{"powdermix-2", 1},
-		{"t2-plate", 1},
-		{"t2-gears", 1},
-		{"t2-brick", 1},
+		{"t3-plate", 1},
+		{"t3-gears", 1},
+		{"t3-brick", 1},
       },
       result= "powder-mixer-2",
     },
@@ -301,9 +301,9 @@ angelsmods.functions.RB.build({
       ingredients =
       {
 		{"powdermix-2", 1},
-		{"t2-plate", 1 * buildingmulti},
-		{"t2-gears", 1 * buildingmulti},
-		{"t2-brick", 1 * buildingmulti},
+		{"t3-plate", 1 * buildingmulti},
+		{"t3-gears", 1 * buildingmulti},
+		{"t3-brick", 1 * buildingmulti},
       },
       result= "powder-mixer-2",
     },
@@ -318,9 +318,9 @@ angelsmods.functions.RB.build({
       ingredients =
       {
 		{"powdermix-3", 1},
-		{"t3-plate", 1},
-		{"t3-gears", 1},
-		{"t3-brick", 1},
+		{"t4-plate", 1},
+		{"t4-gears", 1},
+		{"t4-brick", 1},
       },
       result= "powder-mixer-3",
     },
@@ -331,9 +331,9 @@ angelsmods.functions.RB.build({
       ingredients =
       {
 		{"powdermix-3", 1},
-		{"t3-plate", 1 * buildingmulti},
-		{"t3-gears", 1 * buildingmulti},
-		{"t3-brick", 1 * buildingmulti},
+		{"t4-plate", 1 * buildingmulti},
+		{"t4-gears", 1 * buildingmulti},
+		{"t4-brick", 1 * buildingmulti},
       },
       result= "powder-mixer-3",
     },
@@ -348,9 +348,9 @@ angelsmods.functions.RB.build({
       ingredients =
       {
 		{"powdermix-4", 1},
-		{"t4-plate", 1},
-		{"t4-gears", 1},
-		{"t4-brick", 1},
+		{"t5-plate", 1},
+		{"t5-gears", 1},
+		{"t5-brick", 1},
       },
       result= "powder-mixer-4",
     },
@@ -361,9 +361,9 @@ angelsmods.functions.RB.build({
       ingredients =
       {
 		{"powdermix-4", 1},
-		{"t4-plate", 1 * buildingmulti},
-		{"t4-gears", 1 * buildingmulti},
-		{"t4-brick", 1 * buildingmulti},
+		{"t5-plate", 1 * buildingmulti},
+		{"t5-gears", 1 * buildingmulti},
+		{"t5-brick", 1 * buildingmulti},
       },
       result= "powder-mixer-4",
     },

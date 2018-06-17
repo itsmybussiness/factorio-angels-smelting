@@ -85,7 +85,7 @@ data:extend(
     energy_required = 2,
 	enabled = "false",
     ingredients ={
-	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 285},
+	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 285, maximum_temperature = 315},
 	  {type="fluid", name="water", amount=50},
 	},
     results=
@@ -116,7 +116,7 @@ data:extend(
     energy_required = 2,
 	enabled = "false",
     ingredients ={
-	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 185},
+	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 185, maximum_temperature = 215},
 	  {type="fluid", name="water", amount=50},
 	},
     results=
@@ -147,7 +147,7 @@ data:extend(
     energy_required = 2,
 	enabled = "false",
     ingredients ={
-	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 85},
+	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 85, maximum_temperature = 115},
 	  {type="fluid", name="water", amount=50},
 	},
     results=
