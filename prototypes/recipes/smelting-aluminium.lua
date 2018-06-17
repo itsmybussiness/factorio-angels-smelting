@@ -291,7 +291,7 @@ data:extend(
 		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-aluminium", amount=200 * intermediatemulti},
-			{type="fluid", name="liquid-coolant-used", amount=40},
+			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
 		},
 		results={
 			{type="item", name="angels-roll-aluminium", amount=4},

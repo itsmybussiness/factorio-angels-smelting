@@ -307,7 +307,7 @@ data:extend(
 		energy_required = 2,
 		ingredients ={
 			{type="fluid", name="liquid-molten-iron", amount=200 * intermediatemulti},
-			{type="fluid", name="liquid-coolant-used", amount=40},
+			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
 		},
 		results={
 			{type="item", name="angels-roll-iron", amount=4},

@@ -229,7 +229,7 @@ data:extend(
 		ingredients ={
 			{type="fluid", name="liquid-molten-gold", amount=100 * intermediatemulti},
 			{type="fluid", name="liquid-molten-copper", amount=100 * intermediatemulti},
-			{type="fluid", name="liquid-coolant-used", amount=40},
+			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
 		},
 		results={
 			{type="item", name="angels-wire-coil-gold", amount=8},
