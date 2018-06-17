@@ -367,6 +367,7 @@ data:extend(
 	subgroup = "angels-iron-casting",
     energy_required = 0.5,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-roll-iron", amount=1},
 	},

@@ -262,6 +262,7 @@ data:extend(
 	subgroup = "angels-platinum-casting",
     energy_required = 1,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-wire-coil-platinum", amount=4},
 	},

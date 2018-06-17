@@ -328,6 +328,7 @@ data:extend(
 	subgroup = "angels-copper-casting",
     energy_required = 0.5,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-roll-copper", amount=1},
 	},
@@ -354,6 +355,7 @@ data:extend(
 	subgroup = "angels-copper-casting",
     energy_required = 1,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-wire-coil-copper", amount=4},
 	},

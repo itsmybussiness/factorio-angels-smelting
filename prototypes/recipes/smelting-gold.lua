@@ -289,6 +289,7 @@ data:extend(
 	subgroup = "angels-gold-casting",
     energy_required = 1,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-wire-coil-gold", amount=4},
 	},

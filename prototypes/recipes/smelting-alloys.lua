@@ -284,6 +284,7 @@ data:extend(
     category = "advanced-crafting",
 	subgroup = "angels-steel-casting",
     energy_required = 0.5,
+	allow_decomposition = false,
 	enabled = "false",
     ingredients ={
       {type="item", name="angels-roll-steel", amount=1},
@@ -515,6 +516,7 @@ data:extend(
 	subgroup = "angels-solder-casting",
     energy_required = 0.5,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-roll-solder", amount=4},
 	},

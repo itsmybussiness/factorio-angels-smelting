@@ -351,6 +351,7 @@ data:extend(
 	subgroup = "angels-aluminium-casting",
     energy_required = 0.5,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-roll-aluminium", amount=1},
 	},

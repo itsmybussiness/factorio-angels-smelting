@@ -386,8 +386,9 @@ data:extend(
     name = "angels-roll-titanium-converting",
     category = "advanced-crafting",
 	subgroup = "angels-titanium-casting",
-    energy_required = 1,
+    energy_required = 0.5,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-roll-titanium", amount=1},
 	},

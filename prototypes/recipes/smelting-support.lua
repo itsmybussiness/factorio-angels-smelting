@@ -87,7 +87,7 @@ data:extend(
     results=
     {
 	  {type="fluid", name="liquid-coolant-clean", amount=100, temperature = 200},
-	  {type="fluid", name="steam", amount=50, temperature = 200},
+	  {type="fluid", name="steam", amount=50, temperature = 175},
     },
 	--main_product= "liquid-coolant-clean",
 	icons = {
@@ -117,7 +117,7 @@ data:extend(
     results=
     {
 	  {type="fluid", name="liquid-coolant-clean", amount=100, temperature = 100},
-	  {type="fluid", name="steam", amount=50, temperature = 100},
+	  {type="fluid", name="steam", amount=50, temperature = 150},
     },
 	--main_product= "liquid-coolant-clean",
 	icons = {
@@ -147,7 +147,7 @@ data:extend(
     results=
     {
 	  {type="fluid", name="liquid-coolant-clean", amount=100, temperature = 25},
-	  {type="fluid", name="steam", amount=50, temperature = 50},
+	  {type="fluid", name="steam", amount=50, temperature = 125},
     },
 	--main_product= "liquid-coolant-clean",
 	icons = {

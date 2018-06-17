@@ -230,6 +230,7 @@ data:extend(
 	subgroup = "angels-tin-casting",
     energy_required = 1,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-wire-coil-tin", amount=4},
 	},

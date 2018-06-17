@@ -280,6 +280,7 @@ data:extend(
 	subgroup = "angels-silver-casting",
     energy_required = 1,
 	enabled = "false",
+	allow_decomposition = false,
     ingredients ={
       {type="item", name="angels-wire-coil-silver", amount=4},
 	},
