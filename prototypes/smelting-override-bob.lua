@@ -87,10 +87,10 @@ if data.raw.item["tinned-copper-cable"] then
 	OV.add_unlock("angels-glass-smelting-3", "angels-glass-fiber-board")
 	
 	OV.patch_recipes({
-		{ name = "angels-wire-coil-copper-converting", category = "electronics"},
-		{ name = "angels-wire-coil-gold-converting", category = "electronics"},
-		{ name = "angels-wire-coil-tin-converting", category = "electronics"},
-		{ name = "angels-roll-solder-converting", category = "electronics"},
+		{ name = "angels-wire-coil-copper-converting", category = "electronics-machine"},
+		{ name = "angels-wire-coil-gold-converting", category = "electronics-machine"},
+		{ name = "angels-wire-coil-tin-converting", category = "electronics-machine"},
+		{ name = "angels-roll-solder-converting", category = "electronics-machine"},
 	})
 end
 

@@ -177,7 +177,6 @@ data:extend(
 		},
 		main_product = "angels-wire-coil-tin",
 	},
-	main_product = "angels-wire-coil-tin",
 	icons = {
 		{
 			icon = "__angelssmelting__/graphics/icons/wire-coil-tin.png",

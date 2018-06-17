@@ -3,6 +3,22 @@ data:extend(
 --COOLANT
 	{
     type = "recipe",
+    name = "coolant-cool-steam",
+    category = "cooling",
+	subgroup = "coolant",
+    energy_required = 2,
+	enabled = "false",
+    ingredients ={
+	  {type="fluid", name="steam", amount=100},
+	},
+    results=
+    {
+	  {type="fluid", name="water-purified", amount=100},
+    },
+    order = "a",
+	},
+	{
+    type = "recipe",
     name = "coolant",
     category = "chemistry",
 	subgroup = "coolant",
@@ -16,7 +32,7 @@ data:extend(
     {
 	  {type="fluid", name="liquid-coolant", amount=50},
     },
-    order = "a",
+    order = "b",
 	},
 	{
     type = "recipe",
@@ -33,7 +49,7 @@ data:extend(
     {
 	  {type="fluid", name="liquid-coolant", amount=90, temperature = 25},
     },
-	    order = "b",
+	    order = "c",
 	},
 	{
     type = "recipe",
@@ -52,7 +68,7 @@ data:extend(
 	  {type="item", name="filter-frame", amount=1},
     },
 	main_product= "liquid-coolant-clean",
-    order = "c",
+    order = "d",
 	},
 	{
     type = "recipe",
@@ -73,6 +89,7 @@ data:extend(
 	main_product= "liquid-coolant-clean",
     order = "d",
 	},
+--COOLING TOWER
 	{
     type = "recipe",
     name = "coolant-cool-300",
@@ -101,7 +118,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
-    order = "g",
+    order = "h",
 	},
 	{
     type = "recipe",
@@ -131,7 +148,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
-    order = "f",
+    order = "g",
 	},
 	{
     type = "recipe",
@@ -161,7 +178,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
-    order = "e",
+    order = "f",
 	},
 }
 )

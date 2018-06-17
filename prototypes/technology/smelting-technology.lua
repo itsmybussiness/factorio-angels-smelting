@@ -3114,6 +3114,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "coolant-cool-300"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant-cool-steam"
+      },
     },
     unit =
     {
@@ -3137,10 +3141,6 @@ data:extend(
     },
     effects =
     {
-	  -- {
-        -- type = "unlock-recipe",
-        -- recipe = "cooling-tower"
-      -- },
 	  {
         type = "unlock-recipe",
         recipe = "coolant-used-filtration-2"
@@ -3152,6 +3152,7 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
       time = 30
     },

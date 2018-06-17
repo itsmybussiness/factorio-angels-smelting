@@ -1,3 +1,7 @@
+--0.3.10
+-added recipe for cooling down steam to water
+-changed crafting category for convertig cable coils to bobs electronic machines
+
 --0.3.9
 -added variable to coil to cable conversion recipe to not use it for handcrafting
 -changed steam temperature from cooling tower to 125, 150, 175 degrees

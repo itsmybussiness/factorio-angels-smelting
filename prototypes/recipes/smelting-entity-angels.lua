@@ -341,7 +341,7 @@ angelsmods.functions.RB.build({
 	  enabled = false,
       ingredients =
       {
-	    {"powder-mixer-2", 1},
+	    {"powder-mixer-3", 1},
 		{"t4-plate", 10},
 		{"t4-gears", 5},
 		{"t4-brick", 10},
@@ -354,7 +354,7 @@ angelsmods.functions.RB.build({
 	  enabled = false,
       ingredients =
       {
-	    {"powder-mixer-2", 1},
+	    {"powder-mixer-3", 1},
 		{"t4-plate", 10 * buildingmulti},
 		{"t4-gears", 5 * buildingmulti},
 		{"t4-brick", 10 * buildingmulti},
