@@ -14,6 +14,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-powder-mixer",
     order = "a[powder-mixer]",
@@ -34,6 +35,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "powder-mixer"},
 	fast_replaceable_group = "powder-mixer",
@@ -101,6 +103,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-powder-mixer",
     order = "b[powder-mixer-2]",
@@ -121,6 +124,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "powder-mixer-2"},
 	fast_replaceable_group = "powder-mixer",
@@ -188,6 +192,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-powder-mixer",
     order = "c[powder-mixer-3]",
@@ -208,6 +213,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "powder-mixer-3"},
 	fast_replaceable_group = "powder-mixer",
@@ -275,6 +281,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-powder-mixer",
     order = "d[powder-mixer-4]",
@@ -295,6 +302,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "powder-mixer-4"},
 	fast_replaceable_group = "powder-mixer",

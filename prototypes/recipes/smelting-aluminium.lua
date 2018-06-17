@@ -18,6 +18,7 @@ data:extend(
     },
     main_product= "processed-aluminium",
     icon = "__angelssmelting__/graphics/icons/processed-aluminium.png",
+	icon_size = 32,
     order = "aa",
     },
     {
@@ -34,6 +35,7 @@ data:extend(
     },
     main_product= "pellet-aluminium",
     icon = "__angelssmelting__/graphics/icons/pellet-aluminium.png",
+	icon_size = 32,
     order = "ab",
     },
 --INGOT
@@ -52,6 +54,7 @@ data:extend(
     {
       {type="item", name="solid-aluminium-hydroxide", amount=12},
     },
+	icon_size = 32,
     order = "ac",
     },
     {
@@ -69,6 +72,7 @@ data:extend(
     {
       {type="item", name="solid-aluminium-hydroxide", amount=12},
     },
+	icon_size = 32,
     order = "ad",
     },
     {
@@ -103,6 +107,7 @@ data:extend(
     {
       {type="item", name="solid-sodium-aluminate", amount=18},
     },
+	icon_size = 32,
     order = "af",
     },
     {
@@ -123,6 +128,7 @@ data:extend(
 	  {type="item", name="solid-sodium-carbonate", amount=2},
     },
     main_product= "solid-aluminium-oxide",
+	icon_size = 32,
     order = "ag",
     },
     {
@@ -140,6 +146,7 @@ data:extend(
     {
       {type="item", name="ingot-aluminium", amount=24},
     },
+	icon_size = 32,
     order = "ah",
     },
 --SMELTING
@@ -168,6 +175,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "ba",
     },
     {
@@ -196,6 +204,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bb",
     },
     {
@@ -225,6 +234,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bc",
     },
 --CASTING
@@ -264,6 +274,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},	
+	icon_size = 32,
     order = "ca",
     },
     {
@@ -310,6 +321,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},	
+	icon_size = 32,
     order = "cb",
     },
     {
@@ -341,6 +353,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "d",
     },
 --CRAFTING
@@ -369,6 +382,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "cc",
     },
 }

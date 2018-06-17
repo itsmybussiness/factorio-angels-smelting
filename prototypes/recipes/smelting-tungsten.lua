@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-tungsten", amount=2},
     },
+	icon_size = 32,
     order = "a",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-tungsten", amount=4},
     },
+	icon_size = 32,
     order = "b",
     },
 --INGOT
@@ -50,6 +52,7 @@ data:extend(
       {type="item", name="solid-calcium-chloride", amount=2},
     },
     main_product= "liquid-tungstic-acid",
+	icon_size = 32,
     order = "c",
     },
     {
@@ -68,6 +71,7 @@ data:extend(
       {type="fluid", name="water-purified", amount=60},
     },
     main_product= "solid-tungsten-oxide",
+	icon_size = 32,
     order = "d",
     },
     {
@@ -85,6 +89,7 @@ data:extend(
     {
       {type="item", name="solid-ammonium-paratungstate", amount=24},
     },
+	icon_size = 32,
     order = "e",
     },
     {
@@ -102,6 +107,7 @@ data:extend(
     {
       {type="item", name="powder-tungsten", amount=24},
     },
+	icon_size = 32,
     order = "f",
     },
     {
@@ -119,6 +125,7 @@ data:extend(
     {
       {type="item", name="solid-tungsten-oxide", amount=12},
     },
+	icon_size = 32,
     order = "g",
     },
     {
@@ -136,6 +143,7 @@ data:extend(
     {
       {type="fluid", name="gas-tungsten-hexafluoride", amount=60},
     },
+	icon_size = 32,
     order = "g",
     },
     {
@@ -154,6 +162,7 @@ data:extend(
       {type="item", name="fluorite-ore", amount=3},
     },
     main_product= "powder-tungsten",
+	icon_size = 32,
     order = "h",
     },
 --ALLOYING
@@ -172,6 +181,7 @@ data:extend(
     {
       {type="item", name="casting-powder-tungsten", amount=24},
     },
+	icon_size = 32,
     order = "i",
     },
     {
@@ -189,6 +199,7 @@ data:extend(
     {
       {type="item", name="casting-powder-tungsten", amount=24},
     },
+	icon_size = 32,
     order = "j",
     },
 --SINTERING
@@ -211,6 +222,7 @@ data:extend(
 	  ingredients ={{type="item", name="casting-powder-tungsten", amount=15 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-tungsten", amount=12}},
     },
+	icon_size = 32,
     order = "k",
     },
 }

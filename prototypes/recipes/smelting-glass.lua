@@ -18,6 +18,7 @@ data:extend(
     {
       {type="item", name="solid-glass-mixture", amount=1},
     },
+	icon_size = 32,
     order = "a",
     },
     {
@@ -35,6 +36,7 @@ data:extend(
     {
       {type="item", name="solid-glass-mixture", amount=2},
     },
+	icon_size = 32,
     order = "b",
     },
     {
@@ -53,6 +55,7 @@ data:extend(
     {
       {type="item", name="solid-glass-mixture", amount=3},
     },
+	icon_size = 32,
     order = "c",
     },
     {
@@ -72,6 +75,7 @@ data:extend(
     {
       {type="item", name="solid-glass-mixture", amount=4},
     },
+	icon_size = 32,
     order = "d",
     },
 --SMELTING
@@ -89,6 +93,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-glass", amount=120},
     },
+	icon_size = 32,
     order = "e",
     },
 --CASTING
@@ -132,6 +137,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "f",
     },
     {
@@ -180,6 +186,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "g",
     },
     {
@@ -230,6 +237,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "h",
     },
     {
@@ -261,6 +269,7 @@ data:extend(
 		  {type="item", name="angels-coil-glass-fiber", amount=4},
 		},
 	},
+	icon_size = 32,
     order = "i",
     },
 --CRAFTING
@@ -289,6 +298,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "j",
     },
 }

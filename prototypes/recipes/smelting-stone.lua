@@ -20,6 +20,7 @@ data:extend(
       {type="fluid", name="gas-carbon-dioxide", amount=50},
     },
     main_product= "solid-lime",
+	icon_size = 32,
     order = "a",
     },
 --INTERMEDIATE
@@ -38,6 +39,7 @@ data:extend(
     {
       {type="item", name="solid-cement", amount=1},
     },
+	icon_size = 32,
     order = "b",
     },
     {
@@ -57,6 +59,7 @@ data:extend(
     {
       {type="item", name="solid-cement", amount=2},
     },
+	icon_size = 32,
     order = "c",
     },
 --SMELTING
@@ -76,6 +79,7 @@ data:extend(
     {
       {type="fluid", name="liquid-concrete", amount=100},
     },
+	icon_size = 32,
     order = "d",
     },
     {
@@ -95,6 +99,7 @@ data:extend(
     {
       {type="fluid", name="liquid-concrete", amount=120},
     },
+	icon_size = 32,
     order = "e",
     },
 --CASTING
@@ -114,6 +119,7 @@ data:extend(
     {
       {type="item", name="clay-brick-raw", amount=4},
     },
+	icon_size = 32,
     order = "f",
     },
     {
@@ -130,6 +136,7 @@ data:extend(
     {
       {type="item", name="clay-brick", amount=4},
     },
+	icon_size = 32,
     order = "g",
     },
     {
@@ -146,6 +153,7 @@ data:extend(
     {
       {type="item", name="concrete", amount=4},
     },
+	icon_size = 32,
     order = "h",
     },
     {
@@ -162,6 +170,7 @@ data:extend(
     {
       {type="item", name="concrete-brick", amount=4},
     },
+	icon_size = 32,
     order = "i",
     },
     {
@@ -179,6 +188,7 @@ data:extend(
     {
       {type="item", name="reinforced-concrete-brick", amount=4},
     },
+	icon_size = 32,
     order = "j",
     },
 }

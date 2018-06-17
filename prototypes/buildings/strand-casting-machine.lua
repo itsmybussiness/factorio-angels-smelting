@@ -14,6 +14,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-strand-casting-machine",
     order = "a[strand-casting-machine]",
@@ -34,6 +35,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "strand-casting-machine"},
 	fast_replaceable_group = "strand-casting-machine",
@@ -133,6 +135,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-strand-casting-machine",
     order = "b[strand-casting-machine-2]",
@@ -153,6 +156,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "strand-casting-machine-2"},
 	fast_replaceable_group = "strand-casting-machine",
@@ -252,6 +256,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-strand-casting-machine",
     order = "c[strand-casting-machine-3]",
@@ -272,6 +277,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "strand-casting-machine-3"},
 	fast_replaceable_group = "strand-casting-machine",
@@ -371,6 +377,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-strand-casting-machine",
     order = "d[strand-casting-machine-4]",
@@ -391,6 +398,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "strand-casting-machine-4"},
 	fast_replaceable_group = "strand-casting-machine",

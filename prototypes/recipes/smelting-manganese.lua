@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-manganese", amount=2},
     },
+	icon_size = 32,
     order = "a",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-manganese", amount=4},
     },
+	icon_size = 32,
     order = "b",
     },
 --INGOT
@@ -48,6 +50,7 @@ data:extend(
     {
       {type="item", name="ingot-manganese", amount=24},
     },
+	icon_size = 32,
     order = "c",
     },
     {
@@ -65,6 +68,7 @@ data:extend(
     {
       {type="item", name="cathode-manganese", amount=12},
     },
+	icon_size = 32,
     order = "d",
     },
     {
@@ -82,6 +86,7 @@ data:extend(
     {
       {type="item", name="solid-manganese-oxide", amount=24},
     },
+	icon_size = 32,
     order = "e",
     },
     {
@@ -102,6 +107,7 @@ data:extend(
       {type="item", name="solid-iron-hydroxide", amount=4},
     },
     main_product= "cathode-manganese",
+	icon_size = 32,
     order = "f",
     },
     {
@@ -118,6 +124,7 @@ data:extend(
     {
       {type="item", name="ingot-manganese", amount=24},
     },
+	icon_size = 32,
     order = "g",
     },
     {
@@ -137,6 +144,7 @@ data:extend(
       {type="fluid", name="gas-carbon-dioxide", amount=20},
     },
     main_product= "ingot-iron",
+	icon_size = 32,
     order = "h",
     },
 --SMELTING
@@ -154,6 +162,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-manganese", amount=120},
     },
+	icon_size = 32,
     order = "i",
     },
 --CASTING
@@ -176,6 +185,7 @@ data:extend(
 	  ingredients ={{type="fluid", name="liquid-molten-manganese", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-manganese", amount=4}},
     },
+	icon_size = 32,
     order = "j",
     },
 }

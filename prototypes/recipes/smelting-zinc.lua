@@ -18,6 +18,7 @@ data:extend(
     },
     main_product= "processed-zinc",
     icon = "__angelssmelting__/graphics/icons/processed-zinc.png",
+	icon_size = 32,
     order = "a [processed-zinc]",
     },
     {
@@ -34,6 +35,7 @@ data:extend(
     },
     main_product= "pellet-zinc",
     icon = "__angelssmelting__/graphics/icons/pellet-zinc.png",
+	icon_size = 32,
     order = "b [pellet-zinc]",
     },
 --INGOT
@@ -56,6 +58,7 @@ data:extend(
       {type="fluid", name="gas-sulfur-dioxide", amount=30},
     },
     main_product= "ingot-zinc",
+	icon_size = 32,
     order = "c",
     },
     {
@@ -76,6 +79,7 @@ data:extend(
       {type="fluid", name="gas-sulfur-dioxide", amount=30},
     },
     main_product= "ingot-zinc",
+	icon_size = 32,
     order = "d",
     },
     {
@@ -95,6 +99,7 @@ data:extend(
       {type="fluid", name="gas-sulfur-dioxide", amount=30},
     },
     main_product= "solid-zinc-oxide",
+	icon_size = 32,
     order = "e",
     },
     {
@@ -112,6 +117,7 @@ data:extend(
     {
       {type="item", name="cathode-zinc", amount=12},
     },
+	icon_size = 32,
     order = "f",
     },
     {
@@ -128,6 +134,7 @@ data:extend(
     {
       {type="item", name="ingot-zinc", amount=24},
     },
+	icon_size = 32,
     order = "g",
     },
 --SMELTING
@@ -145,6 +152,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-zinc", amount=120},
     },
+	icon_size = 32,
     order = "h",
     },
 --CASTING
@@ -167,6 +175,7 @@ data:extend(
 	  ingredients ={{type="fluid", name="liquid-molten-zinc", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-zinc", amount=4}},
     },
+	icon_size = 32,
     order = "i [angels-plate-zinc]",
     },
 }

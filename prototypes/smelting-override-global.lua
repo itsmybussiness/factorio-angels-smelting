@@ -1,3 +1,5 @@
+local OV = angelsmods.functions.OV
+
 --OVERRIDE FOR BASE
 	data.raw["item"]["iron-plate"].icon = "__angelssmelting__/graphics/icons/plate-iron.png"
 	data.raw["item"]["iron-plate"].subgroup = "angels-iron-casting"
@@ -129,8 +131,10 @@ if bobmods and bobmods.plates then
 		angelsmods.functions.OV.global_replace_icon("__bobelectronics__/graphics/icons/gilded-copper-cable.png", "__angelssmelting__/graphics/icons/wire-gold.png")
 		angelsmods.functions.OV.global_replace_icon("__bobelectronics__/graphics/icons/solder.png", "__angelssmelting__/graphics/icons/solder.png")
 	end
-	if settings.startup["bobmods-plates-cheapersteel"].value then
-		data.raw.recipe["ingot-iron-smelting"].results={{type="item", name="ingot-steel", amount=8}}
-	end
-    angelsmods.functions.OV.disable_technology({ "angels-platinum-smelting-1", "angels-platinum-smelting-2", "angels-platinum-smelting-3" })  
+	--if settings.startup["bobmods-plates-cheapersteel"].value then
+		OV.patch_recipes({
+			--{ name = "ingot-iron-smelting", results = {{ "ingot-steel", 8}} },
+			{ name = "steel-plate", ingredients = {{ "iron-plate", 8}} }
+		})
+	--end
 end

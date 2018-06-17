@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-silver", amount=2},
     },
+	icon_size = 32,
     order = "a [processed-silver]",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-silver", amount=4},
     },
+	icon_size = 32,
     order = "b [pellet-silver]",
     },
 --INGOT
@@ -47,6 +49,7 @@ data:extend(
     {
       {type="item", name="ingot-silver", amount=24},
     },
+	icon_size = 32,
     order = "c",
     },
     {
@@ -64,6 +67,7 @@ data:extend(
     {
       {type="item", name="solid-silver-nitrate", amount=12},
     },
+	icon_size = 32,
     order = "d",
     },
     {
@@ -80,6 +84,7 @@ data:extend(
     {
       {type="item", name="ingot-silver", amount=24},
     },
+	icon_size = 32,
     order = "e",
     },
     {
@@ -101,6 +106,7 @@ data:extend(
       {type="item", name="solid-sodium-hydroxide", amount=4},
     },
     main_product= "solid-sodium-silver-cyanide",
+	icon_size = 32,
     order = "f",
     },
     {
@@ -117,6 +123,7 @@ data:extend(
     {
       {type="item", name="cathode-silver", amount=12},
     },
+	icon_size = 32,
     order = "g",
     },
     {
@@ -133,6 +140,7 @@ data:extend(
     {
       {type="item", name="ingot-silver", amount=24},
     },
+	icon_size = 32,
     order = "h",
     },
 --SMELTING
@@ -150,6 +158,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-silver", amount=120},
     },
+	icon_size = 32,
     order = "i",
     },
 --CASTING
@@ -191,6 +200,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "za",
     },
     {
@@ -239,6 +249,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "zb",
     },
     {
@@ -270,6 +281,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "zz",
     },
 --CRAFTING
@@ -298,6 +310,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},
+	icon_size = 32,
     order = "zb",
     },
 }

@@ -62,11 +62,6 @@ OV.disable_recipe({ "bob-zinc-plate", "brass-alloy", "gunmetal-alloy" })
 OV.remove_unlock( "alloy-processing-1", "mixing-furnace" )
 OV.add_unlock( "electronics", "mixing-furnace" )
 
---DISABLE RECIPES
-OV.disable_recipe({ "angels-wire-platinum" })
-OV.disable_recipe({ "angels-wire-silver", "angels-wire-coil-silver-casting", "angels-wire-coil-silver-casting-fast", "angels-wire-coil-silver-converting" })
-
-
 if data.raw.item["tinned-copper-cable"] then
 	OV.global_replace_item("angels-wire-tin", "tinned-copper-cable")
 	OV.global_replace_item("angels-wire-gold", "gilded-copper-cable")
@@ -135,6 +130,7 @@ data:extend(
 	type = "fluid",
 	name = "liquid-molten-bronze",
 	icon = "__angelssmelting__/graphics/icons/molten-bronze.png",
+	icon_size = 32,
 	default_temperature = 100,
 	heat_capacity = "0KJ",
 	base_color = {r = 224/256, g = 155/256, b = 58/256},
@@ -171,7 +167,8 @@ data:extend(
 			scale = 0.32,
 			shift = {-12, -12},
 		}
-	},	
+	},
+	icon_size = 32,
     order = "aa",
     },
     {
@@ -201,6 +198,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "ab",
     },
     {
@@ -230,6 +228,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "ac",
     },
 	--CASTING
@@ -247,6 +246,7 @@ data:extend(
     {
       {type="item", name="bronze-alloy", amount=4},
     },
+	icon_size = 32,
     order = "a",
     },
 --TECH
@@ -354,6 +354,7 @@ data:extend(
 	type = "fluid",
 	name = "liquid-molten-brass",
 	icon = "__angelssmelting__/graphics/icons/molten-brass.png",
+	icon_size = 32,
 	default_temperature = 100,
 	heat_capacity = "0KJ",
 	base_color = {r = 204/256, g = 153/256, b = 102/256},
@@ -391,6 +392,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "ba",
     },
     {
@@ -420,6 +422,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bb",
     },
     {
@@ -449,6 +452,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bc",
     },
 	--CASTING
@@ -466,6 +470,7 @@ data:extend(
     {
       {type="item", name="brass-alloy", amount=4},
     },
+	icon_size = 32,
     order = "b",
     },
 --TECHS
@@ -574,6 +579,7 @@ data:extend(
     type = "fluid",
     name = "liquid-molten-electrum",
     icon = "__angelssmelting__/graphics/icons/molten-electrum.png",
+	icon_size = 32,
 	default_temperature = 100,
     heat_capacity = "0KJ",
     base_color = {r = 143/256, g = 126/256, b = 93/256},
@@ -600,6 +606,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-electrum", amount=360},
     },
+	icon_size = 32,
     icons = {
 		{
 			icon = "__angelssmelting__/graphics/icons/molten-electrum.png",
@@ -628,6 +635,7 @@ data:extend(
     {
       {type="item", name="electrum-alloy", amount=4},
     },
+	icon_size = 32,
     order = "c",
     },
 --ELECTRUM
@@ -676,6 +684,7 @@ data:extend(
     type = "fluid",
     name = "liquid-molten-gunmetal",
     icon = "__angelssmelting__/graphics/icons/molten-gunmetal.png",
+	icon_size = 32,
 	default_temperature = 100,
     heat_capacity = "0KJ",
     base_color = {r = 224/256, g = 103/256, b = 70/256},
@@ -714,6 +723,7 @@ data:extend(
 			-- shift = {-12, -12},
 		-- }
 	},	
+	icon_size = 32,
     order = "da",
     },
 	--CASTING
@@ -731,6 +741,7 @@ data:extend(
     {
       {type="item", name="gunmetal-alloy", amount=4},
     },
+	icon_size = 32,
     order = "d",
     },
 --TECHS
@@ -779,6 +790,7 @@ data:extend(
 	type = "fluid",
 	name = "liquid-molten-invar",
 	icon = "__angelssmelting__/graphics/icons/molten-invar.png",
+	icon_size = 32,
 	default_temperature = 100,
 	heat_capacity = "0KJ",
 	base_color = {r = 95/256, g = 125/256, b = 122/256},
@@ -816,6 +828,7 @@ data:extend(
 			-- shift = {-12, -12},
 		-- }
 	},	
+	icon_size = 32,
     order = "ea",
     },
 	--CASTING
@@ -833,6 +846,7 @@ data:extend(
     {
       {type="item", name="invar-alloy", amount=4},
     },
+	icon_size = 32,
     order = "e",
     },
 --TECH
@@ -881,6 +895,7 @@ data:extend(
     type = "fluid",
     name = "liquid-molten-cobalt-steel",
     icon = "__angelssmelting__/graphics/icons/molten-cobalt-steel.png",
+	icon_size = 32,
 	default_temperature = 100,
     heat_capacity = "0KJ",
     base_color = {r = 61/256, g = 107/256, b = 153/256},
@@ -918,6 +933,7 @@ data:extend(
 			-- shift = {-12, -12},
 		-- }
 	},	
+	icon_size = 32,
     order = "fa",
     },
 	--CASTING
@@ -935,6 +951,7 @@ data:extend(
     {
       {type="item", name="cobalt-steel-alloy", amount=4},
     },
+	icon_size = 32,
     order = "f",
     },
 --TECHS
@@ -982,6 +999,7 @@ data:extend(
     type = "fluid",
     name = "liquid-molten-nitinol",
     icon = "__angelssmelting__/graphics/icons/molten-nitinol.png",
+	icon_size = 32,
 	default_temperature = 100,
     heat_capacity = "0KJ",
     base_color = {r = 106/256, g = 92/256, b = 153/256},
@@ -1019,6 +1037,7 @@ data:extend(
 			-- shift = {-12, -12},
 		-- }
 	},	
+	icon_size = 32,
     order = "ga",
     },
 	--CASTING
@@ -1036,6 +1055,7 @@ data:extend(
     {
       {type="item", name="nitinol-alloy", amount=4},
     },
+	icon_size = 32,
     order = "g",
     },
 --TECHS

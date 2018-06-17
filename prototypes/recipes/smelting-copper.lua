@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-copper", amount=2},
     },
+	icon_size = 32,
     order = "aa",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-copper", amount=4},
     },
+	icon_size = 32,
     order = "ab",
     },
 --INGOT
@@ -47,6 +49,7 @@ data:extend(
     {
       {type="item", name="ingot-copper", amount=24},
     },
+	icon_size = 32,
     order = "ac",
     },
     {
@@ -64,6 +67,7 @@ data:extend(
     {
       {type="item", name="ingot-copper", amount=24},
     },
+	icon_size = 32,
     order = "ad",
     },
     {
@@ -82,6 +86,7 @@ data:extend(
     {
       {type="item", name="anode-copper", amount=24},
     },
+	icon_size = 32,
     order = "ae",
     },
     {
@@ -99,6 +104,7 @@ data:extend(
     {
       {type="item", name="ingot-copper", amount=12},
     },
+	icon_size = 32,
     order = "af",
     },
 --SMELTING
@@ -116,6 +122,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-copper", amount=120},
     },
+	icon_size = 32,
     order = "ba",
     },
 --CASTING
@@ -155,6 +162,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "cb",
     },
     {
@@ -201,6 +209,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "cc",
     },
     {
@@ -239,6 +248,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},	
+	icon_size = 32,
     order = "ce",
     },
     {
@@ -286,6 +296,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},	
+	icon_size = 32,
     order = "cf",
     },
     {
@@ -318,6 +329,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "ch",
     },
 --CRAFTING
@@ -346,6 +358,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "cg",
     },
     {
@@ -373,6 +386,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "cd",
     },
     {
@@ -389,6 +403,7 @@ data:extend(
     {
       {type="item", name="powder-copper", amount=1},
     },
+	icon_size = 32,
     order = "ca",
     },
 }

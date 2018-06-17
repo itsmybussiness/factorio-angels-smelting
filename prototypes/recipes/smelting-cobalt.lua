@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-cobalt", amount=2},
     },
+	icon_size = 32,
     order = "aa",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-cobalt", amount=4},
     },
+	icon_size = 32,
     order = "ab",
     },
 --INGOT
@@ -48,6 +50,7 @@ data:extend(
     {
       {type="item", name="ingot-cobalt", amount=24},
     },
+	icon_size = 32,
     order = "ac",
     },
     {
@@ -65,6 +68,7 @@ data:extend(
     {
       {type="item", name="solid-cobalt-oxide", amount=24},
     },
+	icon_size = 32,
     order = "ad",
     },
     {
@@ -82,6 +86,7 @@ data:extend(
     {
       {type="item", name="solid-cobalt-hydroxide", amount=6},
     },
+	icon_size = 32,
     order = "ae",
     },
     {
@@ -99,6 +104,7 @@ data:extend(
     {
       {type="item", name="solid-cobalt-oxide", amount=24},
     },
+	icon_size = 32,
     order = "af",
     },
     {
@@ -116,6 +122,7 @@ data:extend(
     {
       {type="item", name="ingot-cobalt", amount=24},
     },
+	icon_size = 32,
     order = "ag",
     },
 --SMELTING
@@ -133,6 +140,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-cobalt", amount=120},
     },
+	icon_size = 32,
     order = "ba",
     },
 --CASTING
@@ -155,6 +163,7 @@ data:extend(
 	  ingredients ={{type="fluid", name="liquid-molten-cobalt", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-cobalt", amount=4}},
     },
+	icon_size = 32,
     order = "d",
     },
 --CRAFTING
@@ -172,6 +181,7 @@ data:extend(
     {
       {type="item", name="powder-cobalt", amount=1},
     },
+	icon_size = 32,
     order = "c",
     },
 }

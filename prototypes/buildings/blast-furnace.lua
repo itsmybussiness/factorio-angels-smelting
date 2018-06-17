@@ -13,7 +13,8 @@
 			scale = 0.32,
 			shift = {-12, -12},
 		}
-	},	
+	},
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "angels-blast-furnace",
     order = "a[blast-furnace]",
@@ -34,6 +35,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "blast-furnace"},
 	fast_replaceable_group = "blast-furnace",
@@ -118,6 +120,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "angels-blast-furnace",
     order = "b[blast-furnace-2]",
@@ -138,6 +141,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "blast-furnace-2"},
 	fast_replaceable_group = "blast-furnace",
@@ -222,6 +226,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "angels-blast-furnace",
     order = "c[blast-furnace-3]",
@@ -242,6 +247,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "blast-furnace-3"},
 	fast_replaceable_group = "blast-furnace",
@@ -326,6 +332,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "angels-blast-furnace",
     order = "d[blast-furnace-4]",
@@ -346,6 +353,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "blast-furnace-4"},
 	fast_replaceable_group = "blast-furnace",

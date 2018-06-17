@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-lead", amount=2},
     },
+	icon_size = 32,
     order = "a",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-lead", amount=4},
     },
+	icon_size = 32,
     order = "b",
     },
 --INGOT
@@ -50,6 +52,7 @@ data:extend(
 	  {type="fluid", name="gas-sulfur-dioxide", amount=60},
     },
     main_product= "ingot-lead",
+	icon_size = 32,
     order = "c",
     },
     {
@@ -69,6 +72,7 @@ data:extend(
 	  {type="fluid", name="gas-sulfur-dioxide", amount=120},
     },
     main_product= "solid-lead-oxide",
+	icon_size = 32,
     order = "d",
     },
     {
@@ -87,6 +91,7 @@ data:extend(
       {type="item", name="ingot-lead", amount=24},
     },
     main_product= "ingot-lead",
+	icon_size = 32,
     order = "e",
     },
     {
@@ -108,6 +113,7 @@ data:extend(
       {type="fluid", name="gas-sulfur-dioxide", amount=60},
     },
     main_product= "anode-lead",
+	icon_size = 32,
     order = "f",
     },
     {
@@ -125,6 +131,7 @@ data:extend(
     {
       {type="fluid", name="liquid-hexafluorosilicic-acid", amount=60},
     },
+	icon_size = 32,
     order = "g",
     },
     {
@@ -144,6 +151,7 @@ data:extend(
       {type="item", name="slag", amount=1},
     },
     main_product= "ingot-lead",
+	icon_size = 32,
     order = "h",
     },
 --SMELTING
@@ -161,6 +169,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-lead", amount=120},
     },
+	icon_size = 32,
     order = "i",
     },
 --CASTING
@@ -183,6 +192,7 @@ data:extend(
 	  ingredients ={{type="fluid", name="liquid-molten-lead", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-lead", amount=4}},
     },
+	icon_size = 32,
     order = "j",
     },
 }

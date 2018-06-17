@@ -29,6 +29,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "a",
     },
     {
@@ -57,6 +58,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "b",
     },
     {
@@ -85,6 +87,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "c",
     },
     {
@@ -114,6 +117,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "d",
     },
     {
@@ -143,6 +147,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "e",
     },
 	--CASTING
@@ -175,6 +180,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "i",
     },
     {
@@ -213,6 +219,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "g",
     },
     {
@@ -259,6 +266,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "h",
     },
 	--CRAFTING
@@ -275,7 +283,8 @@ data:extend(
     results=
     {
       {type="item", name="powder-steel", amount=1},
-    },
+    },	
+	icon_size = 32,
     order = "f",
     },
     {
@@ -303,6 +312,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "j",
     },
 --SOLDER
@@ -332,7 +342,8 @@ data:extend(
 			scale = 0.32,
 			shift = {-12, -12},
 		}
-	},	
+	},		
+	icon_size = 32,
     order = "aa",
     },
     {
@@ -361,6 +372,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "ab",
     },
     {
@@ -390,6 +402,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "ac",
     },
 	--CASTING
@@ -429,6 +442,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},	
+	icon_size = 32,
     order = "ba",
     },
     {
@@ -475,6 +489,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},	
+	icon_size = 32,
     order = "bb",
     },
 	{
@@ -506,6 +521,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "bc",
     },
 --CRAFTING
@@ -534,6 +550,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "c",
     },
 }

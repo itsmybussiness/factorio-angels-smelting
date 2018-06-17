@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-iron", amount=2},
     },
+	icon_size = 32,
     order = "aa",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-iron", amount=4},
     },
+	icon_size = 32,
     order = "ab",
     },
 --INGOT
@@ -47,6 +49,7 @@ data:extend(
     {
       {type="item", name="ingot-iron", amount=24},
     },
+	icon_size = 32,
     order = "ac",
     },
     {
@@ -64,6 +67,7 @@ data:extend(
     {
       {type="item", name="ingot-iron", amount=24},
     },
+	icon_size = 32,
     order = "ad",
     },
     {
@@ -82,6 +86,7 @@ data:extend(
     {
       {type="item", name="ingot-iron", amount=24},
     },
+	icon_size = 32,
     order = "ae",
     },
     {
@@ -99,6 +104,7 @@ data:extend(
     {
       {type="item", name="ingot-steel", amount=6},
     },
+	icon_size = 32,
     order = "af",
     },
 --SMELTING
@@ -127,6 +133,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "ba",
     },
     {
@@ -155,6 +162,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bb",
     },
     {
@@ -183,6 +191,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bc",
     },
     {
@@ -212,6 +221,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bd",
     },
     {
@@ -241,6 +251,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "be",
     },
 --CASTING
@@ -280,6 +291,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},	
+	icon_size = 32,
     order = "cb",
     },
     {
@@ -326,6 +338,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},	
+	icon_size = 32,
     order = "cc",
     },
     {
@@ -357,6 +370,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "d",
     },
 --CRAFTING
@@ -385,6 +399,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "cd",
     },
     {
@@ -401,6 +416,7 @@ data:extend(
     {
       {type="item", name="powder-iron", amount=1},
     },
+	icon_size = 32,
     order = "ca",
     },
 }

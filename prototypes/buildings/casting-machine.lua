@@ -14,6 +14,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-casting-machine",
     order = "a[casting-machine]",
@@ -34,6 +35,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "casting-machine"},
 	fast_replaceable_group = "casting-machine",
@@ -130,6 +132,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-casting-machine",
     order = "b[casting-machine-2]",
@@ -150,6 +153,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "casting-machine-2"},
 	fast_replaceable_group = "casting-machine",
@@ -240,6 +244,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-casting-machine",
     order = "c[casting-machine-3]",
@@ -260,6 +265,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "casting-machine-3"},
 	fast_replaceable_group = "casting-machine",
@@ -350,6 +356,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-casting-machine",
     order = "d[casting-machine-4]",
@@ -370,6 +377,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "casting-machine-4"},
 	fast_replaceable_group = "casting-machine",

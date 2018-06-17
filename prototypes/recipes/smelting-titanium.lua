@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-titanium", amount=2},
     },
+	icon_size = 32,
     order = "aa",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-titanium", amount=4},
     },
+	icon_size = 32,
     order = "ab",
     },
 	--INGOT
@@ -49,6 +51,7 @@ data:extend(
     {
       {type="fluid", name="liquid-titanium-tetrachloride", amount=120},
     },
+	icon_size = 32,
     order = "ac",
     },
     {
@@ -67,6 +70,7 @@ data:extend(
     {
       {type="fluid", name="liquid-titanium-tetrachloride", amount=120},
     },
+	icon_size = 32,
     order = "ad",
     },
     {
@@ -84,6 +88,7 @@ data:extend(
     {
       {type="item", name="sponge-titanium", amount=24},
     },
+	icon_size = 32,
     order = "af",
     },
     {
@@ -100,6 +105,7 @@ data:extend(
     {
       {type="item", name="ingot-titanium", amount=24},
     },
+	icon_size = 32,
     order = "ag",
     },
     {
@@ -120,6 +126,7 @@ data:extend(
       {type="item", name="solid-limestone", amount=6},
     },
     main_product= "ingot-titanium",
+	icon_size = 32,
     order = "ah",
     },
 --SMELTING
@@ -148,6 +155,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "ba",
     },
     {
@@ -176,6 +184,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bb",
     },
     {
@@ -204,6 +213,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bc",
     },
     {
@@ -233,6 +243,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "bd",
     },
     {
@@ -262,6 +273,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "be",
     },
 --CASTING
@@ -301,6 +313,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},
+	icon_size = 32,
     order = "ca",
     },
     {
@@ -347,6 +360,7 @@ data:extend(
 			shift = {-12, -12},
 		},
 	},
+	icon_size = 32,
     order = "cb",
     },
     {
@@ -378,6 +392,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "d",
     },
 --CRAFTING
@@ -406,6 +421,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "cc",
     },
 }

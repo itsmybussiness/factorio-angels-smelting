@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-chrome", amount=2},
     },
+	icon_size = 32,
     order = "aa",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-chrome", amount=4},
     },
+	icon_size = 32,
     order = "ab",
     },
 --INGOT
@@ -50,6 +52,7 @@ data:extend(
       {type="fluid", name="gas-carbon-monoxide", amount=60},
 	},
     main_product= "ingot-chrome",
+	icon_size = 32,
     order = "ac",
     },
     {
@@ -69,6 +72,7 @@ data:extend(
       {type="fluid", name="gas-carbon-monoxide", amount=60},
     },
     main_product= "ingot-chrome",
+	icon_size = 32,
     order = "ad",
     },
     {
@@ -87,6 +91,7 @@ data:extend(
     {
       {type="item", name="solid-chromate", amount=24},
     },
+	icon_size = 32,
     order = "ae",
     },
     {
@@ -107,6 +112,7 @@ data:extend(
       {type="fluid", name="water-purified", amount=30},
     },
     main_product= "solid-dichromate",
+	icon_size = 32,
     order = "af",
     },
     {
@@ -127,6 +133,7 @@ data:extend(
       {type="fluid", name="gas-carbon-monoxide", amount=30},
     },
     main_product= "solid-chrome-oxide",
+	icon_size = 32,
     order = "ag",
     },
     {
@@ -146,6 +153,7 @@ data:extend(
       {type="item", name="solid-aluminium-oxide", amount=6},
     },
     main_product= "ingot-chrome",
+	icon_size = 32,
     order = "ah",
     },
 --SMELTING
@@ -163,6 +171,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-chrome", amount=120},
     },
+	icon_size = 32,
     order = "ba",
     },
 --CASTING
@@ -185,6 +194,7 @@ data:extend(
 	  ingredients ={{type="fluid", name="liquid-molten-chrome", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-chrome", amount=4}},
     },
+	icon_size = 32,
     order = "d",
     },
 --CRAFTING
@@ -202,6 +212,7 @@ data:extend(
     {
       {type="item", name="powder-chrome", amount=1},
     },
+	icon_size = 32,
     order = "c",
     },
 }

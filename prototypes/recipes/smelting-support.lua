@@ -15,6 +15,7 @@ data:extend(
     {
 	  {type="fluid", name="water-purified", amount=100},
     },
+	icon_size = 32,
     order = "a",
 	},
 	{
@@ -32,6 +33,7 @@ data:extend(
     {
 	  {type="fluid", name="liquid-coolant", amount=50},
     },
+	icon_size = 32,
     order = "b",
 	},
 	{
@@ -51,6 +53,7 @@ data:extend(
 	  {type="item", name="filter-frame", amount=1},
     },
 	main_product= "liquid-coolant",
+	icon_size = 32,
     order = "d",
 	},
 	{
@@ -70,6 +73,7 @@ data:extend(
 	  {type="item", name="filter-ceramic-used", amount=1},
     },
 	main_product= "liquid-coolant",
+	icon_size = 32,
     order = "d",
 	},
 --COOLING TOWER
@@ -101,6 +105,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "h",
 	},
 	{
@@ -131,6 +136,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "g",
 	},
 	{
@@ -161,6 +167,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "f",
 	},
 }

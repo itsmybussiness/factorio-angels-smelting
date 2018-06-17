@@ -14,6 +14,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-induction-furnace",
     order = "a[induction-furnace]",
@@ -34,6 +35,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "induction-furnace"},
 	fast_replaceable_group = "induction-furnace",
@@ -118,6 +120,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-induction-furnace",
     order = "b[induction-furnace-2]",
@@ -138,6 +141,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "induction-furnace-2"},
 	fast_replaceable_group = "induction-furnace",
@@ -214,6 +218,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-induction-furnace",
     order = "c[induction-furnace-3]",
@@ -234,6 +239,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "induction-furnace-3"},
 	fast_replaceable_group = "induction-furnace",
@@ -310,6 +316,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-induction-furnace",
     order = "d[induction-furnace-4]",
@@ -330,6 +337,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "induction-furnace-4"},
 	fast_replaceable_group = "induction-furnace",

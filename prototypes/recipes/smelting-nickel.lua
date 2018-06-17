@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-nickel", amount=2},
     },
+	icon_size = 32,
     order = "aa [nickel-ore-processing]",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-nickel", amount=4},
     },
+	icon_size = 32,
     order = "ab [nickel-processed-processing]",
     },
 --INGOT
@@ -48,6 +50,7 @@ data:extend(
     {
       {type="item", name="ingot-nickel", amount=24},
     },
+	icon_size = 32,
     order = "ac [nickel-ore-smelting]",
     },
     {
@@ -65,6 +68,7 @@ data:extend(
     {
       {type="item", name="cathode-nickel", amount=12},
     },
+	icon_size = 32,
     order = "ad [processed-nickel-smelting]",
     },
     {
@@ -81,6 +85,7 @@ data:extend(
     {
       {type="item", name="ingot-nickel", amount=24},
     },
+	icon_size = 32,
     order = "ae [nickel-cathode-smelting]",
     },
     {
@@ -99,6 +104,7 @@ data:extend(
     {
       {type="item", name="solid-nickel-carbonyl", amount=24},
     },
+	icon_size = 32,
     order = "af [pellet-nickel-smelting]",
     },
     {
@@ -116,6 +122,7 @@ data:extend(
     {
       {type="item", name="ingot-nickel", amount=24},
     },
+	icon_size = 32,
     order = "ag [solid-nickel-carbonyl-smelting]",
     },
 --SMELTING
@@ -133,6 +140,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-nickel", amount=120},
     },
+	icon_size = 32,
     order = "ba",
     },
 --CASTING
@@ -155,6 +163,7 @@ data:extend(
 	  ingredients ={{type="fluid", name="liquid-molten-nickel", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-nickel", amount=4}},
     },
+	icon_size = 32,
     order = "ca",
     },
 --CRAFTING
@@ -172,6 +181,7 @@ data:extend(
     {
       {type="item", name="powder-nickel", amount=1},
     },
+	icon_size = 32,
     order = "bb",
     },
 }

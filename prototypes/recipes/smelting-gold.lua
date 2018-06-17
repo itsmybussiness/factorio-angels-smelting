@@ -18,6 +18,7 @@ data:extend(
     },
     main_product= "processed-gold",
     icon = "__angelssmelting__/graphics/icons/processed-gold.png",
+	icon_size = 32,
     order = "a",
     },
     {
@@ -34,6 +35,7 @@ data:extend(
     },
     main_product= "pellet-gold",
     icon = "__angelssmelting__/graphics/icons/pellet-gold.png",
+	icon_size = 32,
     order = "b",
     },
 	--INGOT
@@ -52,6 +54,7 @@ data:extend(
     {
       {type="item", name="ingot-gold", amount=24},
     },
+	icon_size = 32,
     order = "c",
     },
     {
@@ -70,6 +73,7 @@ data:extend(
     {
       {type="fluid", name="liquid-chlorauric-acid", amount=120},
     },
+	icon_size = 32,
     order = "d",
     },
     {
@@ -87,6 +91,7 @@ data:extend(
     {
       {type="item", name="cathode-gold", amount=12},
     },
+	icon_size = 32,
     order = "e [processed-gold-smelting]",
     },
     {
@@ -108,6 +113,7 @@ data:extend(
       {type="item", name="solid-sodium-hydroxide", amount=4},
     },
     main_product= "solid-sodium-gold-cyanide",
+	icon_size = 32,
     order = "f",
     },
     {
@@ -124,6 +130,7 @@ data:extend(
     {
       {type="item", name="cathode-gold", amount=12},
     },
+	icon_size = 32,
     order = "g [solid-sodium-gold-cyanide-smelting]",
     },
     {
@@ -140,6 +147,7 @@ data:extend(
     {
       {type="item", name="ingot-gold", amount=24},
     },
+	icon_size = 32,
     order = "h",
     },
 --SMELTING
@@ -159,6 +167,7 @@ data:extend(
     },
     main_product= "liquid-molten-gold",
     icon = "__angelssmelting__/graphics/icons/molten-gold.png",
+	icon_size = 32,
     order = "i",
     },
 --CASTING
@@ -200,6 +209,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "za",
     },
     {
@@ -248,6 +258,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "zb",
     },
     {
@@ -279,6 +290,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "zz",
     },
 --CRAFTING
@@ -307,6 +319,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},	
+	icon_size = 32,
     order = "zy",
     },
 }

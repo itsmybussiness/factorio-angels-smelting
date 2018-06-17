@@ -14,6 +14,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "angels-chemical-furnace",
     order = "a[angels-chemical-furnace]",
@@ -34,6 +35,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "angels-chemical-furnace"},
 	fast_replaceable_group = "angels-chemical-furnace",
@@ -119,6 +121,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "angels-chemical-furnace",
     order = "b[angels-chemical-furnace-2]",
@@ -139,6 +142,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "angels-chemical-furnace-2"},
 	fast_replaceable_group = "angels-chemical-furnace",
@@ -224,6 +228,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "angels-chemical-furnace",
     order = "c[angels-chemical-furnace-3]",
@@ -244,6 +249,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "angels-chemical-furnace-3"},
 	fast_replaceable_group = "angels-chemical-furnace",
@@ -329,6 +335,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "angels-chemical-furnace",
     order = "d[angels-chemical-furnace-4]",
@@ -349,6 +356,7 @@
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "angels-chemical-furnace-4"},
 	fast_replaceable_group = "angels-chemical-furnace",

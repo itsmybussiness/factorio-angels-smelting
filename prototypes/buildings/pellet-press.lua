@@ -14,6 +14,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-pellet-press",
     order = "a[pellet-press]",
@@ -34,6 +35,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "pellet-press"},
 	fast_replaceable_group = "pellet-press",
@@ -100,6 +102,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-pellet-press",
     order = "b[pellet-press-2]",
@@ -120,6 +123,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "pellet-press-2"},
 	fast_replaceable_group = "pellet-press",
@@ -186,6 +190,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-pellet-press",
     order = "c[pellet-press-3]",
@@ -206,6 +211,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "pellet-press-3"},
 	fast_replaceable_group = "pellet-press",
@@ -272,6 +278,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-pellet-press",
     order = "d[pellet-press-4]",
@@ -292,6 +299,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},
+	icon_size = 32,
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "pellet-press-4"},
 	fast_replaceable_group = "pellet-press",

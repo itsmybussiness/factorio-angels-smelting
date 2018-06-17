@@ -16,6 +16,7 @@ data:extend(
     {
       {type="item", name="processed-platinum", amount=2},
     },
+	icon_size = 32,
     order = "a",
     },
     {
@@ -30,6 +31,7 @@ data:extend(
     {
       {type="item", name="pellet-platinum", amount=4},
     },
+	icon_size = 32,
     order = "b",
     },
 --INGOT
@@ -47,6 +49,7 @@ data:extend(
     {
       {type="item", name="ingot-platinum", amount=24},
     },
+	icon_size = 32,
     order = "c",
     },
     {
@@ -64,6 +67,7 @@ data:extend(
     {
       {type="item", name="ingot-platinum", amount=24},
     },
+	icon_size = 32,
     order = "d",
     },
     {
@@ -82,6 +86,7 @@ data:extend(
     {
       {type="fluid", name="liquid-hexachloroplatinic-acid", amount=60},
     },
+	icon_size = 32,
     order = "e",
     },
     {
@@ -99,6 +104,7 @@ data:extend(
     {
       {type="item", name="solid-ammonium-chloroplatinate", amount=24},
     },
+	icon_size = 32,
     order = "f",
     },
     {
@@ -115,6 +121,7 @@ data:extend(
     {
       {type="item", name="ingot-platinum", amount=24},
     },
+	icon_size = 32,
     order = "g",
     },
 --SMELTING
@@ -132,6 +139,7 @@ data:extend(
     {
       {type="fluid", name="liquid-molten-platinum", amount=120},
     },
+	icon_size = 32,
     order = "h",
     },
 --CASTING
@@ -173,6 +181,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "za",
     },
     {
@@ -221,6 +230,7 @@ data:extend(
 			shift = {-12, -12},
 		}
 	},	
+	icon_size = 32,
     order = "zb",
     },
     {
@@ -252,6 +262,7 @@ data:extend(
 			shift = { -10, -10},
 		},
 	},
+	icon_size = 32,
     order = "zz",
     },
 --CRAFTING
@@ -280,6 +291,7 @@ data:extend(
 			shift = { -10, -10},
 		}
 	},
+	icon_size = 32,
     order = "zy",
     },
 }

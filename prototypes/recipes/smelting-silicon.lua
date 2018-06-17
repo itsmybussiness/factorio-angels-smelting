@@ -18,6 +18,7 @@ data:extend(
     },
     main_product= "processed-silica",
     icon = "__angelssmelting__/graphics/icons/processed-silica.png",
+	icon_size = 32,
     order = "a [processed-silica]",
     },
     {
@@ -34,6 +35,7 @@ data:extend(
     },
     main_product= "pellet-silica",
     icon = "__angelssmelting__/graphics/icons/pellet-silica.png",
+	icon_size = 32,
     order = "b [pellet-silica]",
     },
 --INGOT
@@ -52,6 +54,7 @@ data:extend(
     {
       {type="item", name="ingot-silicon", amount=24},
     },
+	icon_size = 32,
     order = "c",
     },
     {
@@ -71,6 +74,7 @@ data:extend(
       {type="fluid", name="gas-hydrogen", amount=30},
     },
     main_product= "liquid-trichlorosilane",
+	icon_size = 32,
     order = "d",
     },
     {
@@ -88,6 +92,7 @@ data:extend(
     {
       {type="item", name="ingot-silicon", amount=24},
     },
+	icon_size = 32,
     order = "e [ingot-silicon]",
     },
     {
@@ -108,6 +113,7 @@ data:extend(
       {type="item", name="solid-aluminium-oxide", amount=6},
     },
     main_product= "gas-silane",
+	icon_size = 32,
     order = "f",
     },
     {
@@ -125,6 +131,7 @@ data:extend(
     {
       {type="item", name="ingot-silicon", amount=24},
     },
+	icon_size = 32,
     order = "g",
     },
 --SMELTING
@@ -144,6 +151,7 @@ data:extend(
     },
     main_product= "liquid-molten-silicon",
     icon = "__angelssmelting__/graphics/icons/molten-silicon.png",
+	icon_size = 32,
     order = "h [molten-silicon-smelting]",
     },
 --CASTING
@@ -166,6 +174,7 @@ data:extend(
 	  ingredients ={{type="fluid", name="liquid-molten-silicon", amount=50 * intermediatemulti}},
 	  results={{type="item", name="angels-plate-silicon", amount=4}},
     },
+	icon_size = 32,
     order = "i",
     },
 }
