@@ -215,7 +215,6 @@ data:extend(
 	{"iron-plate", 10},
 	},
     result= "induction-furnace",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
     },
 	{
     type = "recipe",
@@ -226,7 +225,6 @@ data:extend(
 	{"induction-furnace", 1},
 	},
     result= "induction-furnace-2",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
     },
 	{
     type = "recipe",
@@ -237,7 +235,6 @@ data:extend(
 	{"induction-furnace-2", 1},
 	},
     result= "induction-furnace-3",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
     },	
 	{
     type = "recipe",
@@ -248,7 +245,6 @@ data:extend(
 	{"induction-furnace-3", 1},
 	},
     result= "induction-furnace-4",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
     },
 --CASTING MACHINE
 	{
@@ -260,7 +256,6 @@ data:extend(
 	{"iron-plate", 10},
 	},
     result= "casting-machine",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
     },
 	{
     type = "recipe",
@@ -271,7 +266,6 @@ data:extend(
 	{"casting-machine", 1},
 	},
     result= "casting-machine-2",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
     },
 	{
     type = "recipe",
@@ -282,7 +276,6 @@ data:extend(
 	{"casting-machine-2", 1},
 	},
     result= "casting-machine-3",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
     },	
 	{
     type = "recipe",
@@ -293,7 +286,6 @@ data:extend(
 	{"casting-machine-3", 1},
 	},
     result= "casting-machine-4",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
     },
 --SINTERING OVEN
 	{
@@ -305,7 +297,6 @@ data:extend(
 	{"iron-plate", 10},
 	},
     result= "sintering-oven",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
     },
 	{
     type = "recipe",
@@ -316,7 +307,6 @@ data:extend(
 	{"sintering-oven", 1},
 	},
     result= "sintering-oven-2",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
     },
 	{
     type = "recipe",
@@ -327,7 +317,6 @@ data:extend(
 	{"sintering-oven-2", 1},
 	},
     result= "sintering-oven-3",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
     },	
 	{
     type = "recipe",
@@ -338,7 +327,6 @@ data:extend(
 	{"sintering-oven-3", 1},
 	},
     result= "sintering-oven-4",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
     },
 --STRAND CASTING MACHINE
 	{
@@ -350,7 +338,6 @@ data:extend(
 	{"iron-plate", 10},
 	},
     result= "strand-casting-machine",
-    icon = "__angelssmelting__/graphics/icons/strand-casting-machine.png",
     },
 	{
     type = "recipe",
@@ -361,7 +348,6 @@ data:extend(
 	{"strand-casting-machine", 1},
 	},
     result= "strand-casting-machine-2",
-    icon = "__angelssmelting__/graphics/icons/strand-casting-machine.png",
     },
 	{
     type = "recipe",
@@ -372,7 +358,6 @@ data:extend(
 	{"strand-casting-machine-2", 1},
 	},
     result= "strand-casting-machine-3",
-    icon = "__angelssmelting__/graphics/icons/strand-casting-machine.png",
     },	
 	{
     type = "recipe",
@@ -383,7 +368,17 @@ data:extend(
 	{"strand-casting-machine-3", 1},
 	},
     result= "strand-casting-machine-4",
-    icon = "__angelssmelting__/graphics/icons/strand-casting-machine.png",
+    },
+--COOLING TOWER
+	{
+    type = "recipe",
+    name = "cooling-tower",
+    energy_required = 5,
+	enabled = "false",
+    ingredients ={
+	{"iron-plate", 10},
+	},
+    result= "cooling-tower",
     },
   }
   )

@@ -37,16 +37,26 @@ data:extend(
     stack_size = 200
   },
   {
+    type = "item",
+    name = "powder-copper",
+    icon = "__angelssmelting__/graphics/icons/powder-copper.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "angels-copper",
+    order = "ea",
+    stack_size = 200
+  },
+  {
     type = "fluid",
     name = "liquid-molten-copper",
     icon = "__angelssmelting__/graphics/icons/molten-copper.png",
 	default_temperature = 100,
     heat_capacity = "0KJ",
-    base_color = {r = 0.1, g = 0.1, b = 0.1},
-    flow_color = {r = 0.1, g = 0.1, b = 0.1},
+    base_color = {r = 154/255, g = 101/255, b = 86/255},
+    flow_color = {r = 154/255, g = 101/255, b = 86/255},
     max_temperature = 100,
 	pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
+	auto_barrel = false
   },
   {
     type = "item",
@@ -73,6 +83,15 @@ data:extend(
     flags = {"goes-to-main-inventory"},
     subgroup = "angels-copper-casting",
     order = "h",
+    stack_size = 200
+  },
+  {
+    type = "item",
+    name = "angels-roll-copper",
+    icon = "__angelssmelting__/graphics/icons/roll-copper.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "angels-copper-casting",
+    order = "i",
     stack_size = 200
   },
 }

@@ -4,12 +4,12 @@ if angelsmods.refining then
 	end
 		
 	--CREATE BARRELS
-	angelsmods.functions.make_barrel("liquid-chlorauric-acid", "smelting", "k", "chemical")
-	angelsmods.functions.make_barrel("liquid-hexachloroplatinic-acid", "smelting", "k", "chemical")
-	angelsmods.functions.make_barrel("gas-silane", "smelting", "k", "chemical")
-	angelsmods.functions.make_barrel("liquid-trichlorosilane", "smelting", "k", "chemical")
-	angelsmods.functions.make_barrel("liquid-titanium-tetrachloride", "smelting", "k", "chemical")
-	angelsmods.functions.make_barrel("gas-tungsten-hexafluoride", "smelting", "k", "chemical")
-	angelsmods.functions.make_barrel("liquid-hexafluorosilicic-acid", "smelting", "k", "chemical")
-	angelsmods.functions.make_barrel("liquid-tungstic-acid", "smelting", "k", "chemical")
+	angelsmods.functions.make_void("liquid-chlorauric-acid", "chemical")
+	angelsmods.functions.make_void("liquid-hexachloroplatinic-acid", "chemical")
+	angelsmods.functions.make_void("gas-silane", "chemical")
+	angelsmods.functions.make_void("liquid-trichlorosilane", "chemical")
+	angelsmods.functions.make_void("liquid-titanium-tetrachloride", "chemical")
+	angelsmods.functions.make_void("gas-tungsten-hexafluoride", "chemical")
+	angelsmods.functions.make_void("liquid-hexafluorosilicic-acid", "chemical")
+	angelsmods.functions.make_void("liquid-tungstic-acid", "chemical")
 end

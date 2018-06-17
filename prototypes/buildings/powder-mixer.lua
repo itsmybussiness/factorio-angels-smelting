@@ -3,7 +3,17 @@ data:extend(
   {
     type = "item",
     name = "powder-mixer",
-    icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-powder-mixer",
     order = "a[powder-mixer]",
@@ -13,7 +23,17 @@ data:extend(
    {
     type = "assembling-machine",
     name = "powder-mixer",
-    icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "powder-mixer"},
 	fast_replaceable_group = "powder-mixer",
@@ -70,7 +90,17 @@ data:extend(
     {
     type = "item",
     name = "powder-mixer-2",
-    icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-powder-mixer",
     order = "b[powder-mixer-2]",
@@ -80,7 +110,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "powder-mixer-2",
-    icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "powder-mixer-2"},
 	fast_replaceable_group = "powder-mixer",
@@ -137,7 +177,17 @@ data:extend(
     {
     type = "item",
     name = "powder-mixer-3",
-    icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-powder-mixer",
     order = "c[powder-mixer-3]",
@@ -147,7 +197,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "powder-mixer-3",
-    icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "powder-mixer-3"},
 	fast_replaceable_group = "powder-mixer",
@@ -204,7 +264,17 @@ data:extend(
 	{
     type = "item",
     name = "powder-mixer-4",
-    icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-powder-mixer",
     order = "d[powder-mixer-4]",
@@ -214,7 +284,17 @@ data:extend(
 	{
     type = "assembling-machine",
     name = "powder-mixer-4",
-    icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/powder-mixer-ico.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "powder-mixer-4"},
 	fast_replaceable_group = "powder-mixer",

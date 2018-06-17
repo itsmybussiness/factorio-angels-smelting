@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --NICKEL
@@ -14,7 +16,7 @@ data:extend(
     {
       {type="item", name="processed-nickel", amount=2},
     },
-    order = "a [nickel-ore-processing]",
+    order = "aa [nickel-ore-processing]",
     },
     {
     type = "recipe",
@@ -26,9 +28,9 @@ data:extend(
     ingredients ={{"processed-nickel", 3}},
     results=
     {
-      {type="item", name="pellet-nickel", amount=12},
+      {type="item", name="pellet-nickel", amount=4},
     },
-    order = "b [nickel-processed-processing]",
+    order = "ab [nickel-processed-processing]",
     },
 --INGOT
     {
@@ -40,13 +42,13 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="nickel-ore", amount=24},
-      {type="fluid", name="gas-carbon-monoxide", amount=6},
+      {type="fluid", name="gas-carbon-monoxide", amount=60},
 	},
     results=
     {
       {type="item", name="ingot-nickel", amount=24},
     },
-    order = "c [nickel-ore-smelting]",
+    order = "ac [nickel-ore-smelting]",
     },
     {
     type = "recipe",
@@ -57,13 +59,13 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="processed-nickel", amount=4},
-      {type="fluid", name="liquid-sulfuric-acid", amount=6},
+      {type="fluid", name="liquid-sulfuric-acid", amount=60},
 	},
     results=
     {
       {type="item", name="cathode-nickel", amount=12},
     },
-    order = "d [processed-nickel-smelting]",
+    order = "ad [processed-nickel-smelting]",
     },
     {
     type = "recipe",
@@ -79,7 +81,7 @@ data:extend(
     {
       {type="item", name="ingot-nickel", amount=24},
     },
-    order = "e [nickel-cathode-smelting]",
+    order = "ae [nickel-cathode-smelting]",
     },
     {
     type = "recipe",
@@ -89,15 +91,15 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="item", name="pellet-nickel", amount=24},
+      {type="item", name="pellet-nickel", amount=8},
       {type="item", name="sulfur", amount=1},
-      {type="fluid", name="gas-carbon-monoxide", amount=6},
+      {type="fluid", name="gas-carbon-monoxide", amount=60},
 	},
     results=
     {
       {type="item", name="solid-nickel-carbonyl", amount=24},
     },
-    order = "f [pellet-nickel-smelting]",
+    order = "af [pellet-nickel-smelting]",
     },
     {
     type = "recipe",
@@ -114,7 +116,7 @@ data:extend(
     {
       {type="item", name="ingot-nickel", amount=24},
     },
-    order = "g [solid-nickel-carbonyl-smelting]",
+    order = "ag [solid-nickel-carbonyl-smelting]",
     },
 --SMELTING
     {
@@ -129,10 +131,32 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-nickel", amount=12},
+      {type="fluid", name="liquid-molten-nickel", amount=120},
     },
-    order = "h [molten-nickel-smelting]",
+    order = "ba",
     },
+--CASTING
+    {
+    type = "recipe",
+    name = "angels-plate-nickel",
+    category = "casting",
+	subgroup = "angels-nickel-casting",
+    energy_required = 4,
+	normal =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-nickel", amount=40}},
+	  results={{type="item", name="angels-plate-nickel", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-nickel", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-nickel", amount=4}},
+    },
+    order = "ca",
+    },
+--CRAFTING
     {
     type = "recipe",
     name = "powder-nickel",
@@ -147,24 +171,7 @@ data:extend(
     {
       {type="item", name="powder-nickel", amount=1},
     },
-    order = "i",
-    },
---CASTING
-    {
-    type = "recipe",
-    name = "angels-plate-nickel",
-    category = "casting",
-	subgroup = "angels-nickel-casting",
-    energy_required = 4,
-	enabled = "false",
-    ingredients ={
-      {type="fluid", name="liquid-molten-nickel", amount=4},
-	},
-    results=
-    {
-      {type="item", name="angels-plate-nickel", amount=4},
-    },
-    order = "j",
+    order = "bb",
     },
 }
 )

@@ -3,7 +3,17 @@ data:extend(
   {
     type = "item",
     name = "pellet-press",
-    icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-pellet-press",
     order = "a[pellet-press]",
@@ -13,7 +23,17 @@ data:extend(
    {
     type = "assembling-machine",
     name = "pellet-press",
-    icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "pellet-press"},
 	fast_replaceable_group = "pellet-press",
@@ -69,7 +89,17 @@ data:extend(
     {
     type = "item",
     name = "pellet-press-2",
-    icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-pellet-press",
     order = "b[pellet-press-2]",
@@ -79,7 +109,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "pellet-press-2",
-    icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "pellet-press-2"},
 	fast_replaceable_group = "pellet-press",
@@ -109,8 +149,10 @@ data:extend(
         filename = "__angelssmelting__/graphics/entity/pellet-press/pellet-press.png",
         width = 160,
         height = 160,
-        frame_count = 1,
+		line_length = 10,
+        frame_count = 60,
         shift = {0, 0},
+		animation_speed = 0.5,
     },
 	-- {
         -- filename = "__angelssmelting__/graphics/entity/3x3-overlay.png",
@@ -133,7 +175,17 @@ data:extend(
     {
     type = "item",
     name = "pellet-press-3",
-    icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-pellet-press",
     order = "c[pellet-press-3]",
@@ -143,7 +195,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "pellet-press-3",
-    icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "pellet-press-3"},
 	fast_replaceable_group = "pellet-press",
@@ -173,8 +235,10 @@ data:extend(
         filename = "__angelssmelting__/graphics/entity/pellet-press/pellet-press.png",
         width = 160,
         height = 160,
-        frame_count = 1,
+		line_length = 10,
+        frame_count = 60,
         shift = {0, 0},
+		animation_speed = 0.5,
     },
 	-- {
         -- filename = "__angelssmelting__/graphics/entity/3x3-overlay.png",
@@ -197,7 +261,17 @@ data:extend(
 	{
     type = "item",
     name = "pellet-press-4",
-    icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-pellet-press",
     order = "d[pellet-press-4]",
@@ -207,7 +281,17 @@ data:extend(
 	{
     type = "assembling-machine",
     name = "pellet-press-4",
-    icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/pellet-press.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "pellet-press-4"},
 	fast_replaceable_group = "pellet-press",
@@ -237,8 +321,10 @@ data:extend(
         filename = "__angelssmelting__/graphics/entity/pellet-press/pellet-press.png",
         width = 160,
         height = 160,
-        frame_count = 1,
+		line_length = 10,
+        frame_count = 60,
         shift = {0, 0},
+		animation_speed = 0.5,
     },
 	-- {
         -- filename = "__angelssmelting__/graphics/entity/3x3-overlay.png",

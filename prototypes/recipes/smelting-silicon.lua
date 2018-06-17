@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --SILICON
@@ -28,7 +30,7 @@ data:extend(
     ingredients ={{"processed-silica", 3}},
     results=
     {
-      {type="item", name="pellet-silica", amount=12},
+      {type="item", name="pellet-silica", amount=4},
     },
     main_product= "pellet-silica",
     icon = "__angelssmelting__/graphics/icons/pellet-silica.png",
@@ -61,12 +63,12 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="processed-silica", amount=8},
-      {type="fluid", name="gas-hydrogen-chloride", amount=6},
+      {type="fluid", name="gas-hydrogen-chloride", amount=60},
 	},
     results=
     {
-      {type="fluid", name="liquid-trichlorosilane", amount=12},
-      {type="fluid", name="gas-hydrogen", amount=3},
+      {type="fluid", name="liquid-trichlorosilane", amount=120},
+      {type="fluid", name="gas-hydrogen", amount=30},
     },
     main_product= "liquid-trichlorosilane",
     order = "d",
@@ -79,7 +81,7 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="fluid", name="liquid-trichlorosilane", amount=9},
+      {type="fluid", name="liquid-trichlorosilane", amount=90},
       {type="item", name="ingot-silicon", amount=6},
 	},
     results=
@@ -96,13 +98,13 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="item", name="pellet-silica", amount=24},
+      {type="item", name="pellet-silica", amount=8},
       {type="item", name="ingot-aluminium", amount=6},
-      {type="fluid", name="gas-hydrogen", amount=6},
+      {type="fluid", name="gas-hydrogen", amount=60},
 	},
     results=
     {
-      {type="fluid", name="gas-silane", amount=12},
+      {type="fluid", name="gas-silane", amount=120},
       {type="item", name="solid-aluminium-oxide", amount=6},
     },
     main_product= "gas-silane",
@@ -116,7 +118,7 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="fluid", name="gas-silane", amount=9},
+      {type="fluid", name="gas-silane", amount=90},
       {type="item", name="ingot-silicon", amount=6},
 	},
     results=
@@ -138,7 +140,7 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-silicon", amount=12},
+      {type="fluid", name="liquid-molten-silicon", amount=120},
     },
     main_product= "liquid-molten-silicon",
     icon = "__angelssmelting__/graphics/icons/molten-silicon.png",
@@ -151,13 +153,17 @@ data:extend(
     category = "casting",
 	subgroup = "angels-silicon-casting",
     energy_required = 4,
-	enabled = "false",
-    ingredients ={
-      {type="fluid", name="liquid-molten-silicon", amount=4},
-	},
-    results=
+	normal =
     {
-      {type="item", name="angels-plate-silicon", amount=4},
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-silicon", amount=40}},
+	  results={{type="item", name="angels-plate-silicon", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-silicon", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-silicon", amount=4}},
     },
     order = "i",
     },

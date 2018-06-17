@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --MANGANESE
@@ -26,7 +28,7 @@ data:extend(
     ingredients ={{"processed-manganese", 3}},
     results=
     {
-      {type="item", name="pellet-manganese", amount=12},
+      {type="item", name="pellet-manganese", amount=4},
     },
     order = "b",
     },
@@ -57,7 +59,7 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="processed-manganese", amount=4},
-      {type="fluid", name="liquid-sulfuric-acid", amount=4},
+      {type="fluid", name="liquid-sulfuric-acid", amount=40},
 	},
     results=
     {
@@ -73,8 +75,8 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="item", name="pellet-manganese", amount=24},
-      {type="fluid", name="gas-natural-1", amount=6},
+      {type="item", name="pellet-manganese", amount=8},
+      {type="fluid", name="gas-natural-1", amount=60},
 	},
     results=
     {
@@ -92,7 +94,7 @@ data:extend(
     ingredients ={
       {type="item", name="solid-manganese-oxide", amount=12},
       {type="item", name="ingot-iron", amount=4},
-      {type="fluid", name="liquid-sulfuric-acid", amount=4},
+      {type="fluid", name="liquid-sulfuric-acid", amount=40},
 	},
     results=
     {
@@ -132,7 +134,7 @@ data:extend(
     results=
     {
       {type="item", name="ingot-iron", amount=6},
-      {type="fluid", name="gas-carbon-dioxide", amount=2},
+      {type="fluid", name="gas-carbon-dioxide", amount=20},
     },
     main_product= "ingot-iron",
     order = "h",
@@ -150,7 +152,7 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-manganese", amount=12},
+      {type="fluid", name="liquid-molten-manganese", amount=120},
     },
     order = "i",
     },
@@ -161,13 +163,17 @@ data:extend(
     category = "casting",
 	subgroup = "angels-manganese-casting",
     energy_required = 4,
-	enabled = "false",
-    ingredients ={
-      {type="fluid", name="liquid-molten-manganese", amount=4},
-	},
-    results=
+	normal =
     {
-      {type="item", name="angels-plate-manganese", amount=4},
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-manganese", amount=40}},
+	  results={{type="item", name="angels-plate-manganese", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-manganese", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-manganese", amount=4}},
     },
     order = "j",
     },

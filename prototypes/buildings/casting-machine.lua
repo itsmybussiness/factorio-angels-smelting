@@ -3,7 +3,17 @@ data:extend(
   {
     type = "item",
     name = "casting-machine",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-casting-machine",
     order = "a[casting-machine]",
@@ -13,7 +23,17 @@ data:extend(
    {
     type = "assembling-machine",
     name = "casting-machine",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "casting-machine"},
 	fast_replaceable_group = "casting-machine",
@@ -75,11 +95,18 @@ data:extend(
         pipe_connections = {{ type="input", position = {-2, 1} }}
       },
       {
+        production_type = "input",
+        pipe_covers = pipecoverspictures(),
+        base_area = 10,
+        base_level = -1,
+        pipe_connections = {{ type="input", position = {-1, -2} }}
+      },
+      {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {-1, -2} }}
-      }
+        pipe_connections = {{ position = {2, -1} }}
+      },
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     working_sound =
@@ -92,7 +119,17 @@ data:extend(
     {
     type = "item",
     name = "casting-machine-2",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-casting-machine",
     order = "b[casting-machine-2]",
@@ -102,7 +139,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "casting-machine-2",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "casting-machine-2"},
 	fast_replaceable_group = "casting-machine",
@@ -164,10 +211,11 @@ data:extend(
         pipe_connections = {{ type="input", position = {-2, 1} }}
       },
       {
-        production_type = "output",
+        production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_level = 1,
-        pipe_connections = {{ position = {-1, -2} }}
+        base_area = 10,
+        base_level = -1,
+        pipe_connections = {{ type="input", position = {-1, -2} }}
       }
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -181,7 +229,17 @@ data:extend(
     {
     type = "item",
     name = "casting-machine-3",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-casting-machine",
     order = "c[casting-machine-3]",
@@ -191,7 +249,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "casting-machine-3",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "casting-machine-3"},
 	fast_replaceable_group = "casting-machine",
@@ -253,10 +321,11 @@ data:extend(
         pipe_connections = {{ type="input", position = {-2, 1} }}
       },
       {
-        production_type = "output",
+        production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_level = 1,
-        pipe_connections = {{ position = {-1, -2} }}
+        base_area = 10,
+        base_level = -1,
+        pipe_connections = {{ type="input", position = {-1, -2} }}
       }
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -270,7 +339,17 @@ data:extend(
 	{
     type = "item",
     name = "casting-machine-4",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-casting-machine",
     order = "d[casting-machine-4]",
@@ -280,7 +359,17 @@ data:extend(
 	{
     type = "assembling-machine",
     name = "casting-machine-4",
-    icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/casting-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "casting-machine-4"},
 	fast_replaceable_group = "casting-machine",
@@ -342,10 +431,11 @@ data:extend(
         pipe_connections = {{ type="input", position = {-2, 1} }}
       },
       {
-        production_type = "output",
+        production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_level = 1,
-        pipe_connections = {{ position = {-1, -2} }}
+        base_area = 10,
+        base_level = -1,
+        pipe_connections = {{ type="input", position = {-1, -2} }}
       }
     },
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },

@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --IRON
@@ -14,7 +16,7 @@ data:extend(
     {
       {type="item", name="processed-iron", amount=2},
     },
-    order = "a",
+    order = "aa",
     },
     {
     type = "recipe",
@@ -26,9 +28,9 @@ data:extend(
     ingredients ={{"processed-iron", 3}},
     results=
     {
-      {type="item", name="pellet-iron", amount=12},
+      {type="item", name="pellet-iron", amount=4},
     },
-    order = "b",
+    order = "ab",
     },
 --INGOT
     {
@@ -45,7 +47,7 @@ data:extend(
     {
       {type="item", name="ingot-iron", amount=24},
     },
-    order = "c",
+    order = "ac",
     },
     {
     type = "recipe",
@@ -62,7 +64,7 @@ data:extend(
     {
       {type="item", name="ingot-iron", amount=24},
     },
-    order = "d",
+    order = "ad",
     },
     {
     type = "recipe",
@@ -72,7 +74,7 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="item", name="pellet-iron", amount=24},
+      {type="item", name="pellet-iron", amount=8},
       {type="item", name="solid-coke", amount=2},
       {type="item", name="solid-limestone", amount=2},
 	},
@@ -80,7 +82,7 @@ data:extend(
     {
       {type="item", name="ingot-iron", amount=24},
     },
-    order = "e",
+    order = "ae",
     },
     {
     type = "recipe",
@@ -91,13 +93,13 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="ingot-iron", amount=24},
-      {type="fluid", name="gas-oxygen", amount=6},
+      {type="fluid", name="gas-oxygen", amount=60},
 	},
     results=
     {
       {type="item", name="ingot-steel", amount=6},
     },
-    order = "f",
+    order = "af",
     },
 --SMELTING
     {
@@ -112,9 +114,20 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-iron", amount=12},
+      {type="fluid", name="liquid-molten-iron", amount=120},
     },
-    order = "g",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "ba",
     },
     {
     type = "recipe",
@@ -129,9 +142,20 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-iron", amount=24},
+      {type="fluid", name="liquid-molten-iron", amount=240},
     },
-    order = "h",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "bb",
     },
     {
     type = "recipe",
@@ -146,9 +170,20 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-iron", amount=24},
+      {type="fluid", name="liquid-molten-iron", amount=240},
     },
-    order = "i",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "bc",
     },
     {
     type = "recipe",
@@ -164,9 +199,20 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-iron", amount=36},
+      {type="fluid", name="liquid-molten-iron", amount=360},
     },
-    order = "j",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "bd",
     },
     {
     type = "recipe",
@@ -182,26 +228,176 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-iron", amount=36},
+      {type="fluid", name="liquid-molten-iron", amount=360},
     },
-    order = "k",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_5.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "be",
     },
 --CASTING
+    {
+    type = "recipe",
+    name = "roll-iron-casting",
+    category = "strand-casting",
+	subgroup = "angels-iron-casting",
+    energy_required = 2,
+	normal =
+    {
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-iron", amount=80},
+			{type="fluid", name="water", amount=40},
+		},
+		results={{type="item", name="angels-roll-iron", amount=2}},
+	},
+    expensive =
+	{
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-iron", amount=100 * intermediatemulti},
+			{type="fluid", name="water", amount=40},
+		},
+		results={{type="item", name="angels-roll-iron", amount=2}},
+	},
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-iron.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		},
+	},	
+    order = "cb",
+    },
+    {
+    type = "recipe",
+    name = "roll-iron-casting-fast",
+    category = "strand-casting",
+	subgroup = "angels-iron-casting",
+    energy_required = 2,
+	normal =
+    {
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-iron", amount=160},
+			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
+		},
+		results={
+			{type="item", name="angels-roll-iron", amount=4},
+			{type="fluid", name="liquid-coolant-used", amount=40, temperature = 300},
+		},
+		main_product = "angels-roll-iron",
+	},
+    expensive =
+	{
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-iron", amount=200 * intermediatemulti},
+			{type="fluid", name="liquid-coolant-used", amount=40},
+		},
+		results={
+			{type="item", name="angels-roll-iron", amount=4},
+			{type="fluid", name="liquid-coolant-used", amount=40, temperature = 300},
+		},
+		main_product = "angels-roll-iron",
+	},
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-iron.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		},
+	},	
+    order = "cc",
+    },
     {
     type = "recipe",
     name = "angels-plate-iron",
     category = "casting",
 	subgroup = "angels-iron-casting",
     energy_required = 4,
+	normal =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-iron", amount=40}},
+	  results={{type="item", name="angels-plate-iron", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-iron", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-iron", amount=4}},
+    },
+	icons = {
+		{ 
+			icon = "__angelssmelting__/graphics/icons/plate-iron.png",
+		},
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-iron.png",
+			scale = 0.4375,
+			shift = { -10, -10},
+		},
+	},
+    order = "d",
+    },
+--CRAFTING
+    {
+    type = "recipe",
+    name = "angels-roll-iron-converting",
+    category = "advanced-crafting",
+	subgroup = "angels-iron-casting",
+    energy_required = 0.5,
 	enabled = "false",
     ingredients ={
-      {type="fluid", name="liquid-molten-iron", amount=4},
+      {type="item", name="angels-roll-iron", amount=1},
 	},
     results=
     {
       {type="item", name="angels-plate-iron", amount=4},
     },
-    order = "l",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/plate-iron.png",
+		},
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-iron.png",
+			scale = 0.4375,
+			shift = { -10, -10},
+		}
+	},	
+    order = "cd",
+    },
+    {
+    type = "recipe",
+    name = "powder-iron",
+    category = "advanced-crafting",
+	subgroup = "angels-iron-casting",
+    energy_required = 0.5,
+	enabled = "false",
+    ingredients ={
+      {type="item", name="ingot-iron", amount=1},
+	},
+    results=
+    {
+      {type="item", name="powder-iron", amount=1},
+    },
+    order = "ca",
     },
 }
 )

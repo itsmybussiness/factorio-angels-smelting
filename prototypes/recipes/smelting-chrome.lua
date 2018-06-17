@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --CHROME
@@ -14,7 +16,7 @@ data:extend(
     {
       {type="item", name="processed-chrome", amount=2},
     },
-    order = "a [processed-chrome]",
+    order = "aa",
     },
     {
     type = "recipe",
@@ -26,9 +28,9 @@ data:extend(
     ingredients ={{"processed-chrome", 3}},
     results=
     {
-      {type="item", name="pellet-chrome", amount=12},
+      {type="item", name="pellet-chrome", amount=4},
     },
-    order = "b [pellet-chrome]",
+    order = "ab",
     },
 --INGOT
     {
@@ -45,10 +47,10 @@ data:extend(
     results=
     {
       {type="item", name="ingot-chrome", amount=24},
-      {type="fluid", name="gas-carbon-monoxide", amount=6},
+      {type="fluid", name="gas-carbon-monoxide", amount=60},
 	},
     main_product= "ingot-chrome",
-    order = "c [chrome-ore-smelting]",
+    order = "ac",
     },
     {
     type = "recipe",
@@ -64,10 +66,10 @@ data:extend(
     results=
     {
       {type="item", name="ingot-chrome", amount=24},
-      {type="fluid", name="gas-carbon-monoxide", amount=6},
+      {type="fluid", name="gas-carbon-monoxide", amount=60},
     },
     main_product= "ingot-chrome",
-    order = "d [processed-chrome-smelting]",
+    order = "ad",
     },
     {
     type = "recipe",
@@ -77,15 +79,15 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="item", name="pellet-chrome", amount=24},
+      {type="item", name="pellet-chrome", amount=8},
       {type="item", name="solid-sodium-carbonate", amount=6},
-      {type="fluid", name="gas-oxygen", amount=6},
+      {type="fluid", name="gas-oxygen", amount=60},
 	},
     results=
     {
       {type="item", name="solid-chromate", amount=24},
     },
-    order = "e [pellet-chrome-smelting]",
+    order = "ae",
     },
     {
     type = "recipe",
@@ -96,16 +98,16 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="solid-chromate", amount=12},
-      {type="fluid", name="liquid-sulfuric-acid", amount=3},
+      {type="fluid", name="liquid-sulfuric-acid", amount=30},
 	},
     results=
     {
       {type="item", name="solid-dichromate", amount=12},
       {type="item", name="solid-sodium-sulfate", amount=1},
-      {type="fluid", name="water-purified", amount=3},
+      {type="fluid", name="water-purified", amount=30},
     },
     main_product= "solid-dichromate",
-    order = "f [solid-chromate-smelting]",
+    order = "af",
     },
     {
     type = "recipe",
@@ -122,10 +124,10 @@ data:extend(
     {
       {type="item", name="solid-chrome-oxide", amount=24},
       {type="item", name="solid-sodium-carbonate", amount=3},
-      {type="fluid", name="gas-carbon-monoxide", amount=3},
+      {type="fluid", name="gas-carbon-monoxide", amount=30},
     },
     main_product= "solid-chrome-oxide",
-    order = "g [solid-dichromate-smelting]",
+    order = "ag",
     },
     {
     type = "recipe",
@@ -144,7 +146,7 @@ data:extend(
       {type="item", name="solid-aluminium-oxide", amount=6},
     },
     main_product= "ingot-chrome",
-    order = "h [solid-chrome-oxide-smelting]",
+    order = "ah",
     },
 --SMELTING
     {
@@ -159,10 +161,32 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-chrome", amount=12},
+      {type="fluid", name="liquid-molten-chrome", amount=120},
     },
-    order = "i",
+    order = "ba",
     },
+--CASTING
+    {
+    type = "recipe",
+    name = "angels-plate-chrome",
+    category = "casting",
+	subgroup = "angels-chrome-casting",
+    energy_required = 4,
+	normal =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-chrome", amount=40}},
+	  results={{type="item", name="angels-plate-chrome", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-chrome", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-chrome", amount=4}},
+    },
+    order = "d",
+    },
+--CRAFTING
     {
     type = "recipe",
     name = "powder-chrome",
@@ -177,24 +201,7 @@ data:extend(
     {
       {type="item", name="powder-chrome", amount=1},
     },
-    order = "j",
-    },
---CASTING
-    {
-    type = "recipe",
-    name = "angels-plate-chrome",
-    category = "casting",
-	subgroup = "angels-chrome-casting",
-    energy_required = 4,
-	enabled = "false",
-    ingredients ={
-      {type="fluid", name="liquid-molten-chrome", amount=4},
-	},
-    results=
-    {
-      {type="item", name="angels-plate-chrome", amount=4},
-    },
-    order = "k",
+    order = "c",
     },
 }
 )

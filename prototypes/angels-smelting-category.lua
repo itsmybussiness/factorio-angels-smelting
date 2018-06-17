@@ -37,11 +37,16 @@ data:extend(
     name = "sintering",
   },
   {
+    type = "recipe-category",
+    name = "cooling",
+  },
+  {
     type = "item-group",
     name = "angels-smelting",
     order = "oa",
     inventory_order = "oa",
     icon = "__angelssmelting__/graphics/technology/blast-furnace-group.png",
+	icon_size = 64,
   },
   {
     type = "item-subgroup",
@@ -75,9 +80,15 @@ data:extend(
   },
   {
     type = "item-subgroup",
+    name = "angels-glass",
+    group = "angels-smelting",
+    order = "fa",
+  },
+  {
+    type = "item-subgroup",
     name = "angels-gold",
     group = "angels-smelting",
-    order = "f",
+    order = "fb",
   },
   {
     type = "item-subgroup",
@@ -123,9 +134,15 @@ data:extend(
   },
   {
     type = "item-subgroup",
+    name = "angels-stone",
+    group = "angels-smelting",
+    order = "na",
+  },
+  {
+    type = "item-subgroup",
     name = "angels-tin",
     group = "angels-smelting",
-    order = "n",
+    order = "nb",
   },
   {
     type = "item-subgroup",
@@ -147,7 +164,7 @@ data:extend(
   },
   -- {
     -- type = "item-subgroup",
-    -- name = "angels-steel",
+    -- name = "angels-alloys",
     -- group = "angels-smelting",
     -- order = "r",
   -- },
@@ -199,6 +216,7 @@ data:extend(
     order = "ob",
     inventory_order = "ob",
     icon = "__angelssmelting__/graphics/technology/induction-furnace-group.png",
+	icon_size = 64,
   },
   {
     type = "item-subgroup",
@@ -226,9 +244,15 @@ data:extend(
   },
   {
     type = "item-subgroup",
+    name = "angels-glass-casting",
+    group = "angels-casting",
+    order = "fa",
+  },
+  {
+    type = "item-subgroup",
     name = "angels-gold-casting",
     group = "angels-casting",
-    order = "f",
+    order = "fb",
   },
   {
     type = "item-subgroup",
@@ -274,9 +298,15 @@ data:extend(
   },
   {
     type = "item-subgroup",
+    name = "angels-stone-casting",
+    group = "angels-casting",
+    order = "na",
+  },
+  {
+    type = "item-subgroup",
     name = "angels-tin-casting",
     group = "angels-casting",
-    order = "n",
+    order = "nb",
   },
   {
     type = "item-subgroup",
@@ -307,6 +337,12 @@ data:extend(
     name = "angels-solder-casting",
     group = "angels-casting",
     order = "s",
+  },
+  {
+    type = "item-subgroup",
+    name = "angels-alloys-casting",
+    group = "angels-casting",
+    order = "t",
   },
   {
     type = "item-subgroup",

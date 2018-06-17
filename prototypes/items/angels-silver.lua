@@ -69,11 +69,12 @@ data:extend(
     icon = "__angelssmelting__/graphics/icons/molten-silver.png",
 	default_temperature = 100,
     heat_capacity = "0KJ",
-    base_color = {r = 0.1, g = 0.1, b = 0.1},
-    flow_color = {r = 0.1, g = 0.1, b = 0.1},
+    base_color = {r = 59/255, g = 143/255, b = 179/255},
+    flow_color = {r = 59/255, g = 143/255, b = 179/255},
     max_temperature = 100,
 	pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
+	auto_barrel = false
   },
   {
     type = "item",

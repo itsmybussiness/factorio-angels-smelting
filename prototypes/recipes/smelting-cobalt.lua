@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --COBALT
@@ -14,7 +16,7 @@ data:extend(
     {
       {type="item", name="processed-cobalt", amount=2},
     },
-    order = "a [processed-cobalt]",
+    order = "aa",
     },
     {
     type = "recipe",
@@ -26,9 +28,9 @@ data:extend(
     ingredients ={{"processed-cobalt", 3}},
     results=
     {
-      {type="item", name="pellet-cobalt", amount=12},
+      {type="item", name="pellet-cobalt", amount=4},
     },
-    order = "b [pellet-cobalt]",
+    order = "ab",
     },
 --INGOT
     {
@@ -46,7 +48,7 @@ data:extend(
     {
       {type="item", name="ingot-cobalt", amount=24},
     },
-    order = "c [ingot-cobalt]",
+    order = "ac",
     },
     {
     type = "recipe",
@@ -63,7 +65,7 @@ data:extend(
     {
       {type="item", name="solid-cobalt-oxide", amount=24},
     },
-    order = "d [ingot-cobalt]",
+    order = "ad",
     },
     {
     type = "recipe",
@@ -73,14 +75,14 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="item", name="pellet-cobalt", amount=6},
-      {type="fluid", name="liquid-sulfuric-acid", amount=2},
+      {type="item", name="pellet-cobalt", amount=2},
+      {type="fluid", name="liquid-sulfuric-acid", amount=20},
 	},
     results=
     {
       {type="item", name="solid-cobalt-hydroxide", amount=6},
     },
-    order = "e [ingot-cobalt]",
+    order = "ae",
     },
     {
     type = "recipe",
@@ -97,7 +99,7 @@ data:extend(
     {
       {type="item", name="solid-cobalt-oxide", amount=24},
     },
-    order = "f [ingot-cobalt]",
+    order = "af",
     },
     {
     type = "recipe",
@@ -114,7 +116,7 @@ data:extend(
     {
       {type="item", name="ingot-cobalt", amount=24},
     },
-    order = "g [ingot-cobalt]",
+    order = "ag",
     },
 --SMELTING
     {
@@ -129,10 +131,32 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-cobalt", amount=12},
+      {type="fluid", name="liquid-molten-cobalt", amount=120},
     },
-    order = "h [molten-cobalt-smelting]",
+    order = "ba",
     },
+--CASTING
+    {
+    type = "recipe",
+    name = "angels-plate-cobalt",
+    category = "casting",
+	subgroup = "angels-cobalt-casting",
+    energy_required = 4,
+	normal =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-cobalt", amount=40}},
+	  results={{type="item", name="angels-plate-cobalt", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-cobalt", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-cobalt", amount=4}},
+    },
+    order = "d",
+    },
+--CRAFTING
     {
     type = "recipe",
     name = "powder-cobalt",
@@ -147,24 +171,7 @@ data:extend(
     {
       {type="item", name="powder-cobalt", amount=1},
     },
-    order = "i",
-    },
---CASTING
-    {
-    type = "recipe",
-    name = "angels-plate-cobalt",
-    category = "casting",
-	subgroup = "angels-cobalt-casting",
-    energy_required = 4,
-	enabled = "false",
-    ingredients ={
-      {type="fluid", name="liquid-molten-cobalt", amount=4},
-	},
-    results=
-    {
-      {type="item", name="angels-plate-cobalt", amount=4},
-    },
-    order = "j",
+    order = "c",
     },
 }
 )

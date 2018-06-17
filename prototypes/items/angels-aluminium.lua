@@ -64,16 +64,26 @@ data:extend(
     stack_size = 200
   },
   {
+    type = "item",
+    name = "powder-aluminium",
+    icon = "__angelssmelting__/graphics/icons/powder-aluminium.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "angels-aluminium",
+    order = "h",
+    stack_size = 200
+  },
+  {
     type = "fluid",
     name = "liquid-molten-aluminium",
     icon = "__angelssmelting__/graphics/icons/molten-aluminium.png",
 	default_temperature = 100,
     heat_capacity = "0KJ",
-    base_color = {r = 0.1, g = 0.1, b = 0.1},
-    flow_color = {r = 0.1, g = 0.1, b = 0.1},
+    base_color = {r = 172/255, g = 161/255, b = 84/255},
+    flow_color = {r = 172/255, g = 161/255, b = 84/255},
     max_temperature = 100,
 	pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
+	auto_barrel = false
   },
   {
     type = "item",
@@ -81,7 +91,7 @@ data:extend(
     icon = "__angelssmelting__/graphics/icons/plate-aluminium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "angels-aluminium-casting",
-    order = "h",
+    order = "i",
     stack_size = 200
   },
   {
@@ -90,7 +100,7 @@ data:extend(
     icon = "__angelssmelting__/graphics/icons/roll-aluminium.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "angels-aluminium-casting",
-    order = "i",
+    order = "j",
     stack_size = 200
   },
 }

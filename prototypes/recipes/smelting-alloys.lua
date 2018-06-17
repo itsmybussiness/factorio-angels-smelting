@@ -1,7 +1,9 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --STEEL
---SMELTING
+	--SMELTING
     {
     type = "recipe",
     name = "molten-steel-smelting-1",
@@ -14,8 +16,19 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-steel", amount=12},
+      {type="fluid", name="liquid-molten-steel", amount=120},
     },
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-steel.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     order = "a",
     },
     {
@@ -31,8 +44,19 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-steel", amount=24},
+      {type="fluid", name="liquid-molten-steel", amount=240},
     },
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-steel.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     order = "b",
     },
     {
@@ -48,8 +72,19 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-steel", amount=24},
+      {type="fluid", name="liquid-molten-steel", amount=240},
     },
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-steel.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     order = "c",
     },
     {
@@ -66,8 +101,19 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-steel", amount=36},
+      {type="fluid", name="liquid-molten-steel", amount=360},
     },
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-steel.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     order = "d",
     },
     {
@@ -84,11 +130,136 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-steel", amount=36},
+      {type="fluid", name="liquid-molten-steel", amount=360},
     },
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-steel.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_5.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     order = "e",
     },
+	--CASTING
     {
+    type = "recipe",
+    name = "angels-plate-steel",
+    category = "casting",
+	subgroup = "angels-steel-casting",
+    energy_required = 4,
+	normal =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-steel", amount=40}},
+	  results={{type="item", name="angels-plate-steel", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-steel", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-steel", amount=4}},
+    },
+	icons = {
+		{ 
+			icon = "__angelssmelting__/graphics/icons/plate-steel.png",
+		},
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-steel.png",
+			scale = 0.4375,
+			shift = { -10, -10},
+		},
+	},
+    order = "i",
+    },
+    {
+    type = "recipe",
+    name = "angels-roll-steel-casting",
+    category = "strand-casting",
+	subgroup = "angels-steel-casting",
+    energy_required = 4,
+	normal =
+    {
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-steel", amount=80},
+			{type="fluid", name="water", amount=40},
+		},
+		results={{type="item", name="angels-roll-steel", amount=2}},
+	},
+    expensive =
+	{
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-steel", amount=100 * intermediatemulti},
+			{type="fluid", name="water", amount=40},
+		},
+		results={{type="item", name="angels-roll-steel", amount=2}},
+	},
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-steel.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "g",
+    },
+    {
+    type = "recipe",
+    name = "angels-roll-steel-casting-fast",
+    category = "strand-casting",
+	subgroup = "angels-steel-casting",
+    energy_required = 2,
+	normal =
+    {
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-steel", amount=160},
+			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
+		},
+		results={
+			{type="item", name="angels-roll-steel", amount=4},
+			{type="fluid", name="liquid-coolant-used", amount=40, temperature = 300},
+		},
+		main_product = "angels-roll-steel",
+	},
+    expensive =
+	{
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-steel", amount=200 * intermediatemulti},
+			{type="fluid", name="liquid-coolant-used", amount=40},
+		},
+		results={
+			{type="item", name="angels-roll-steel", amount=4},
+			{type="fluid", name="liquid-coolant-used", amount=40, temperature = 300},
+		},
+		main_product = "angels-roll-steel",
+	},
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-steel.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "h",
+    },
+	--CRAFTING
+	{
     type = "recipe",
     name = "powder-steel",
     category = "advanced-crafting",
@@ -104,40 +275,6 @@ data:extend(
     },
     order = "f",
     },
---CASTING
-    {
-    type = "recipe",
-    name = "angels-plate-steel",
-    category = "casting",
-	subgroup = "angels-steel-casting",
-    energy_required = 4,
-	enabled = "false",
-    ingredients ={
-      {type="fluid", name="liquid-molten-steel", amount=4},
-	},
-    results=
-    {
-      {type="item", name="angels-plate-steel", amount=4},
-    },
-    order = "g",
-    },
-    {
-    type = "recipe",
-    name = "angels-roll-steel-casting",
-    category = "casting",
-	subgroup = "angels-steel-casting",
-    energy_required = 2,
-	enabled = "false",
-    ingredients ={
-      {type="fluid", name="liquid-molten-steel", amount=4},
-	},
-    results=
-    {
-      {type="item", name="angels-roll-steel", amount=1},
-    },
-    order = "za",
-    },
---CRAFTING
     {
     type = "recipe",
     name = "angels-roll-steel-converting",
@@ -152,10 +289,20 @@ data:extend(
     {
       {type="item", name="angels-plate-steel", amount=4},
     },
-    order = "zb",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/plate-steel.png",
+		},
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-steel.png",
+			scale = 0.4375,
+			shift = { -10, -10},
+		}
+	},	
+    order = "j",
     },
 --SOLDER
---SMELTING
+	--SMELTING
     {
     type = "recipe",
     name = "angels-solder-smelting-1",
@@ -169,10 +316,20 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-solder", amount=24},
+      {type="fluid", name="liquid-molten-solder", amount=240},
     },
-    icon = "__angelssmelting__/graphics/icons/molten-solder-1.png",
-    order = "a",
+    icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-solder.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "aa",
     },
     {
     type = "recipe",
@@ -187,10 +344,20 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-solder", amount=24},
+      {type="fluid", name="liquid-molten-solder", amount=240},
     },
-	icon = "__angelssmelting__/graphics/icons/molten-solder-2.png",
-    order = "a",
+    icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-solder.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "ab",
     },
     {
     type = "recipe",
@@ -206,27 +373,160 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-solder", amount=36},
+      {type="fluid", name="liquid-molten-solder", amount=360},
     },
-    icon = "__angelssmelting__/graphics/icons/molten-solder-3.png",
-    order = "a",
+    icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-solder.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
+    order = "ac",
     },
---CASTING
+	--CASTING
+    {
+    type = "recipe",
+    name = "roll-solder-casting",
+    category = "strand-casting",
+	subgroup = "angels-solder-casting",
+    energy_required = 2,
+	normal =
+    {
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-solder", amount=80},
+			{type="fluid", name="water", amount=40},
+		},
+		results={{type="item", name="angels-roll-solder", amount=4}},
+	},
+    expensive =
+	{
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-solder", amount=100 * intermediatemulti},
+			{type="fluid", name="water", amount=40},
+		},
+		results={{type="item", name="angels-roll-solder", amount=4}},
+	},
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-solder.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		},
+	},	
+    order = "ba",
+    },
+    {
+    type = "recipe",
+    name = "roll-solder-casting-fast",
+    category = "strand-casting",
+	subgroup = "angels-solder-casting",
+    energy_required = 2,
+	normal =
+    {
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-solder", amount=160},
+			{type="fluid", name="liquid-coolant", amount=40, maximum_temperature = 50},
+		},
+		results={
+			{type="item", name="angels-roll-solder", amount=8},
+			{type="fluid", name="liquid-coolant-used", amount=40, temperature = 300},
+		},
+		main_product = "angels-roll-solder",
+	},
+    expensive =
+	{
+		enabled = "false",
+		ingredients ={
+			{type="fluid", name="liquid-molten-solder", amount=200 * intermediatemulti},
+			{type="fluid", name="liquid-coolant-used", amount=40},
+		},
+		results={
+			{type="item", name="angels-roll-solder", amount=8},
+			{type="fluid", name="liquid-coolant-used", amount=40, temperature = 300},
+		},
+		main_product = "angels-roll-solder",
+	},
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-solder.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		},
+	},	
+    order = "bb",
+    },
 	{
     type = "recipe",
     name = "angels-solder",
     category = "casting",
 	subgroup = "angels-solder-casting",
     energy_required = 4,
+	normal =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-solder", amount=40}},
+	  results={{type="item", name="angels-solder", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-solder", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-solder", amount=4}},
+    },
+	icons = {
+		{ 
+			icon = "__angelssmelting__/graphics/icons/solder.png",
+		},
+		{
+			icon = "__angelssmelting__/graphics/icons/molten-solder.png",
+			scale = 0.4375,
+			shift = { -10, -10},
+		},
+	},
+    order = "bc",
+    },
+--CRAFTING
+    {
+    type = "recipe",
+    name = "angels-roll-solder-converting",
+    category = "advanced-crafting",
+	subgroup = "angels-solder-casting",
+    energy_required = 0.5,
 	enabled = "false",
     ingredients ={
-      {type="fluid", name="liquid-molten-solder", amount=4},
+      {type="item", name="angels-roll-solder", amount=4},
 	},
     results=
     {
-      {type="item", name="angels-solder", amount=4},
+      {type="item", name="angels-solder", amount=16},
     },
-    order = "g",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/solder.png",
+		},
+		{
+			icon = "__angelssmelting__/graphics/icons/roll-solder.png",
+			scale = 0.4375,
+			shift = { -10, -10},
+		}
+	},	
+    order = "c",
     },
 }
 )

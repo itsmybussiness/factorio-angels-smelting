@@ -8,7 +8,7 @@ data:extend(
 	icon_size = 128,
 	prerequisites =
     {
-	"angels-metallurgy-1",
+	"powder-metallurgy-1",
 	"chlorine-processing-1",
     },
     effects =
@@ -41,7 +41,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -55,6 +55,7 @@ data:extend(
     {
 	"angels-aluminium-smelting-1",
 	"ore-processing-1",
+	"strand-casting-1",	
     },
     effects =
     {
@@ -70,6 +71,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "molten-aluminium-smelting-2"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "roll-aluminium-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-roll-aluminium-converting"
+      },
     },
     unit =
     {
@@ -79,7 +88,7 @@ data:extend(
 	  {"science-pack-2", 1},
 	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -93,8 +102,8 @@ data:extend(
     {
 	"angels-aluminium-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"sodium-processing",
+	"angels-coolant-1",
     },
     effects =
     {
@@ -116,11 +125,7 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "roll-aluminium-casting"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "angels-roll-aluminium-converting"
+        recipe = "roll-aluminium-casting-fast"
       },
     },
     unit =
@@ -130,8 +135,9 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -168,7 +174,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -204,8 +210,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -219,7 +226,6 @@ data:extend(
     {
 	"angels-chrome-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"sodium-processing",
     },
     effects =
@@ -251,8 +257,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -289,7 +297,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -303,7 +311,7 @@ data:extend(
     {
 	"angels-cobalt-smelting-1",
 	"ore-processing-1",
-	"water-washing",
+	"water-washing-2",
     },
     effects =
     {
@@ -330,8 +338,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -345,7 +354,6 @@ data:extend(
     {
 	"angels-cobalt-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"angels-sulfur-processing-1",
     },
     effects =
@@ -369,8 +377,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -406,7 +416,7 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -421,6 +431,7 @@ data:extend(
 	"angels-copper-smelting-1",
 	"ore-processing-1",
 	"basic-chemistry",
+	"strand-casting-1",	
     },
     effects =
     {
@@ -432,6 +443,26 @@ data:extend(
         type = "unlock-recipe",
         recipe = "processed-copper-smelting"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "powder-copper"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-copper-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-copper-converting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "roll-copper-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-roll-copper-converting"
+      },
     },
     unit =
     {
@@ -440,7 +471,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -454,8 +485,8 @@ data:extend(
     {
 	"angels-copper-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"angels-sulfur-processing-1",
+	"angels-coolant-1",
     },
     effects =
     {
@@ -473,11 +504,80 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-wire-coil-copper-casting"
+        recipe = "angels-wire-coil-copper-casting-fast"
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-wire-coil-copper-converting"
+        recipe = "roll-copper-casting-fast"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+--GLAS
+	{
+    type = "technology",
+    name = "angels-glass-smelting-1",
+    icon = "__angelssmelting__/graphics/technology/glass-tech.png",
+	icon_size = 128,
+	prerequisites =
+    {
+	"powder-metallurgy-1",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "glass-mixture-1"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "molten-glass-smelting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-plate-glass-1"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "angels-glass-smelting-2",
+    icon = "__angelssmelting__/graphics/technology/glass-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"angels-glass-smelting-1",
+	"angels-stone-smelting-1",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "glass-mixture-2"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-plate-glass-2"
       },
     },
     unit =
@@ -487,7 +587,49 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "angels-glass-smelting-3",
+    icon = "__angelssmelting__/graphics/technology/glass-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"angels-glass-smelting-2",
+	"strand-casting-1",	
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "glass-mixture-3"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "glass-mixture-4"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-plate-glass-3"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-coil-glass-fiber"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  },
+      time = 30
     },
     order = "c-a"
     },
@@ -524,7 +666,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -539,6 +681,7 @@ data:extend(
 	"angels-gold-smelting-1",
 	"ore-processing-1",
 	"angels-nitrogen-processing-2",
+	"strand-casting-1",	
     },
     effects =
     {
@@ -558,6 +701,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "cathode-gold-smelting"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-gold-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-gold-converting"
+      },
     },
     unit =
     {
@@ -565,8 +716,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -580,8 +732,8 @@ data:extend(
     {
 	"angels-gold-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"sodium-processing",
+	"angels-coolant-1",
     },
     effects =
     {
@@ -599,11 +751,7 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-wire-coil-gold-casting"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "angels-wire-coil-gold-converting"
+        recipe = "angels-wire-coil-gold-casting-fast"
       },
     },
     unit =
@@ -612,8 +760,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -652,7 +802,7 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -667,6 +817,7 @@ data:extend(
 	"angels-iron-smelting-1",
 	"ore-processing-1",
 	"angels-coal-processing",
+	"strand-casting-1",
     },
     effects =
     {
@@ -686,6 +837,18 @@ data:extend(
         type = "unlock-recipe",
         recipe = "molten-iron-smelting-3"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "powder-iron"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "roll-iron-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-roll-iron-converting"
+      },
     },
     unit =
     {
@@ -694,7 +857,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -708,8 +871,8 @@ data:extend(
     {
 	"angels-iron-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
-	"water-washing",
+	"water-washing-2",
+	"angels-coolant-1",
     },
     effects =
     {
@@ -729,6 +892,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "molten-iron-smelting-5"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "roll-iron-casting-fast"
+      },
     },
     unit =
     {
@@ -736,8 +903,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -773,7 +941,7 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -811,7 +979,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -825,8 +993,7 @@ data:extend(
     {
 	"angels-lead-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
-	"water-washing",
+	"water-washing-2",
     },
     effects =
     {
@@ -853,8 +1020,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -891,7 +1059,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -928,8 +1096,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -943,7 +1112,6 @@ data:extend(
     {
 	"angels-manganese-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"oil-gas-extraction",
     },
     effects =
@@ -971,8 +1139,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1009,7 +1179,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1050,8 +1220,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1065,7 +1236,6 @@ data:extend(
     {
 	"angels-nickel-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
     },
     effects =
     {
@@ -1088,8 +1258,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1125,7 +1297,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1140,6 +1312,7 @@ data:extend(
 	"angels-platinum-smelting-1",
 	"ore-processing-1",
 	"angels-sulfur-processing-1",
+	"strand-casting-1",
     },
     effects =
     {
@@ -1151,6 +1324,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "processed-platinum-smelting"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-platinum-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-platinum-converting"
+      },
     },
     unit =
     {
@@ -1158,8 +1339,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1173,9 +1355,9 @@ data:extend(
     {
 	"angels-platinum-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"chlorine-processing-1",
 	"angels-nitrogen-processing-2",
+	"angels-coolant-1",
     },
     effects =
     {
@@ -1197,11 +1379,7 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-wire-coil-platinum-casting"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "angels-wire-coil-platinum-converting"
+        recipe = "angels-wire-coil-platinum-casting-fast"
       },
     },
     unit =
@@ -1210,8 +1388,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1248,7 +1428,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1287,7 +1467,7 @@ data:extend(
 	  {"science-pack-2", 1},
 	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1301,7 +1481,6 @@ data:extend(
     {
 	"angels-silicon-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"basic-chemistry",
     },
     effects =
@@ -1326,8 +1505,9 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1363,7 +1543,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1378,6 +1558,7 @@ data:extend(
 	"angels-silver-smelting-1",
 	"ore-processing-1",
 	"angels-nitrogen-processing-2",
+	"strand-casting-1",
     },
     effects =
     {
@@ -1393,6 +1574,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "solid-silver-nitrate-smelting"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-silver-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-silver-converting"
+      },
     },
     unit =
     {
@@ -1402,7 +1591,7 @@ data:extend(
 	  {"science-pack-2", 1},
 	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1416,8 +1605,8 @@ data:extend(
     {
 	"angels-silver-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"sodium-processing",
+	"angels-coolant-1",
     },
     effects =
     {
@@ -1439,11 +1628,122 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-wire-coil-silver-casting"
+        recipe = "angels-wire-coil-silver-casting-fast"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+--STONE
+	{
+    type = "technology",
+    name = "angels-stone-smelting-1",
+    icon = "__angelssmelting__/graphics/technology/cement-tech.png",
+	icon_size = 128,
+	prerequisites =
+    {
+	"angels-metallurgy-1",
+	"water-washing-1",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "solid-lime"
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-wire-coil-silver-converting"
+        recipe = "angels-clay-brick-raw"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-clay-brick"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "angels-stone-smelting-2",
+    icon = "__angelssmelting__/graphics/technology/cement-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"angels-stone-smelting-1",
+	"powder-metallurgy-1",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "cement-mixture-1"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "concrete-mixture-1"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-concrete"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-concrete-brick"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "angels-stone-smelting-3",
+    icon = "__angelssmelting__/graphics/technology/cement-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"angels-stone-smelting-2",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "cement-mixture-2"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "concrete-mixture-2"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-reinforced-concrete-brick"
       },
     },
     unit =
@@ -1454,7 +1754,7 @@ data:extend(
 	  {"science-pack-2", 1},
 	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1489,7 +1789,7 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1504,6 +1804,7 @@ data:extend(
 	"angels-tin-smelting-1",
 	"ore-processing-1",
 	"angels-coal-processing",
+	"strand-casting-1",
     },
     effects =
     {
@@ -1514,40 +1815,6 @@ data:extend(
 	  {
         type = "unlock-recipe",
         recipe = "processed-tin-smelting"
-      },
-    },
-    unit =
-    {
-      count = 50,
-      ingredients = {
-	  {"science-pack-1", 1},
-	  {"science-pack-2", 1},
-	  },
-      time = 15
-    },
-    order = "c-a"
-    },
-	{
-    type = "technology",
-    name = "angels-tin-smelting-3",
-    icon = "__angelssmelting__/graphics/technology/smelting-tin.png",
-	icon_size = 128,
-	upgrade = true,
-	prerequisites =
-    {
-	"angels-tin-smelting-2",
-	"ore-processing-2",
-	"advanced-metallurgy-1",
-    },
-    effects =
-    {
-	  {
-        type = "unlock-recipe",
-        recipe = "tin-processed-processing"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "pellet-tin-smelting"
       },
 	  {
         type = "unlock-recipe",
@@ -1565,7 +1832,46 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "angels-tin-smelting-3",
+    icon = "__angelssmelting__/graphics/technology/smelting-tin.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"angels-tin-smelting-2",
+	"ore-processing-2",
+	"angels-coolant-1",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "tin-processed-processing"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "pellet-tin-smelting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-wire-coil-tin-casting-fast"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  },
+      time = 30
     },
     order = "c-a"
     },
@@ -1611,7 +1917,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1625,6 +1931,7 @@ data:extend(
     {
 	"angels-titanium-smelting-1",
 	"ore-processing-1",
+	"strand-casting-1",
     },
     effects =
     {
@@ -1644,6 +1951,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "molten-titanium-smelting-3"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "roll-titanium-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-roll-titanium-converting"
+      },
     },
     unit =
     {
@@ -1651,8 +1966,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1666,8 +1982,8 @@ data:extend(
     {
 	"angels-titanium-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"basic-chemistry-2",
+	"angels-coolant-1",
     },
     effects =
     {
@@ -1689,11 +2005,7 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-roll-titanium-casting"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "angels-roll-titanium-converting"
+        recipe = "roll-titanium-casting-fast"
       },
     },
     unit =
@@ -1702,8 +2014,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1715,7 +2029,7 @@ data:extend(
 	icon_size = 128,
 	prerequisites =
     {
-	"angels-metallurgy-1",
+	"powder-metallurgy-1",
 	"chlorine-processing-1",
     },
     effects =
@@ -1751,8 +2065,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1793,8 +2108,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1808,7 +2125,6 @@ data:extend(
     {
 	"angels-tungsten-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"angels-sulfur-processing-1",
     },
     effects =
@@ -1828,8 +2144,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1866,7 +2184,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1901,7 +2219,7 @@ data:extend(
 	  {"science-pack-2", 1},
 	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1915,7 +2233,6 @@ data:extend(
     {
 	"angels-zinc-smelting-2",
 	"ore-processing-2",
-	"advanced-metallurgy-1",
 	"angels-sulfur-processing-1",
     },
     effects =
@@ -1944,8 +2261,9 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -1970,6 +2288,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "angels-plate-steel"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-roll-steel-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-roll-steel-converting"
+      },
     },
     unit =
     {
@@ -1978,7 +2304,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2015,8 +2341,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2033,6 +2360,7 @@ data:extend(
 	"angels-nickel-smelting-1",
 	"angels-chrome-smelting-1",
 	"angels-tungsten-smelting-1",
+	"angels-coolant-1",
     },
     effects =
     {
@@ -2046,11 +2374,7 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-roll-steel-casting"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "angels-roll-steel-converting"
+        recipe = "angels-roll-steel-casting-fast"
       },
     },
     unit =
@@ -2059,8 +2383,10 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2091,9 +2417,8 @@ data:extend(
       count = 50,
       ingredients = {
 	  {"science-pack-1", 1},
-	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2114,6 +2439,14 @@ data:extend(
         type = "unlock-recipe",
         recipe = "angels-solder-smelting-2"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "roll-solder-casting"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "angels-roll-solder-converting"
+      },
     },
     unit =
     {
@@ -2122,7 +2455,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2144,6 +2477,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "angels-solder-smelting-3"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "roll-solder-casting-fast"
+      },
     },
     unit =
     {
@@ -2151,8 +2488,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2177,19 +2515,11 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-chemical-furnace"
-      },
-	  {
-        type = "unlock-recipe",
         recipe = "induction-furnace"
       },
 	  {
         type = "unlock-recipe",
         recipe = "casting-machine"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "powder-mixer"
       },
     },
     unit =
@@ -2198,7 +2528,7 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2207,6 +2537,7 @@ data:extend(
     name = "angels-metallurgy-2",
     icon = "__angelssmelting__/graphics/technology/blast-furnace-tech.png",
 	icon_size = 128,
+	upgrade = true,
 	prerequisites =
     {
 	"angels-metallurgy-1",
@@ -2223,19 +2554,11 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-chemical-furnace-2"
-      },
-	  {
-        type = "unlock-recipe",
         recipe = "induction-furnace-2"
       },
 	  {
         type = "unlock-recipe",
         recipe = "casting-machine-2"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "powder-mixer-2"
       },
     },
     unit =
@@ -2245,7 +2568,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2254,6 +2577,7 @@ data:extend(
     name = "angels-metallurgy-3",
     icon = "__angelssmelting__/graphics/technology/blast-furnace-tech.png",
 	icon_size = 128,
+	upgrade = true,
 	prerequisites =
     {
 	"angels-metallurgy-2",
@@ -2270,19 +2594,11 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-chemical-furnace-3"
-      },
-	  {
-        type = "unlock-recipe",
         recipe = "induction-furnace-3"
       },
 	  {
         type = "unlock-recipe",
         recipe = "casting-machine-3"
-      },
-	  {
-        type = "unlock-recipe",
-        recipe = "powder-mixer-3"
       },
     },
     unit =
@@ -2291,8 +2607,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2301,6 +2618,7 @@ data:extend(
     name = "angels-metallurgy-4",
     icon = "__angelssmelting__/graphics/technology/blast-furnace-tech.png",
 	icon_size = 128,
+	upgrade = true,
 	prerequisites =
     {
 	"angels-metallurgy-3",
@@ -2317,15 +2635,140 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "angels-chemical-furnace-4"
-      },
-	  {
-        type = "unlock-recipe",
         recipe = "induction-furnace-4"
       },
 	  {
         type = "unlock-recipe",
         recipe = "casting-machine-4"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"high-tech-science-pack", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+--POWDER METALLURGY
+	{
+    type = "technology",
+    name = "powder-metallurgy-1",
+    icon = "__angelssmelting__/graphics/technology/sintering-oven-tech.png",
+	icon_size = 128,
+	prerequisites =
+    {
+	"angels-metallurgy-1",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "sintering-oven"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "powder-mixer"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "powder-metallurgy-2",
+    icon = "__angelssmelting__/graphics/technology/sintering-oven-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"powder-metallurgy-1",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "sintering-oven-2"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "powder-mixer-2"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "powder-metallurgy-3",
+    icon = "__angelssmelting__/graphics/technology/sintering-oven-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"powder-metallurgy-2",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "sintering-oven-3"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "powder-mixer-3"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"production-science-pack", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "powder-metallurgy-4",
+    icon = "__angelssmelting__/graphics/technology/sintering-oven-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"powder-metallurgy-3",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "sintering-oven-4"
       },
 	  {
         type = "unlock-recipe",
@@ -2338,27 +2781,29 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"production-science-pack", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
---ADVANCED METALLURGY
+--STRAND CASTING
 	{
     type = "technology",
-    name = "advanced-metallurgy-1",
-    icon = "__angelssmelting__/graphics/technology/sintering-oven-tech.png",
+    name = "strand-casting-1",
+    icon = "__angelssmelting__/graphics/technology/strand-casting-machine-tech.png",
 	icon_size = 128,
 	prerequisites =
     {
 	"angels-metallurgy-1",
-	"ore-processing-1",
     },
     effects =
     {
 	  {
         type = "unlock-recipe",
-        recipe = "sintering-oven"
+        recipe = "strand-casting-machine"
       },
     },
     unit =
@@ -2368,24 +2813,25 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
 	{
     type = "technology",
-    name = "advanced-metallurgy-2",
-    icon = "__angelssmelting__/graphics/technology/sintering-oven-tech.png",
+    name = "strand-casting-2",
+    icon = "__angelssmelting__/graphics/technology/strand-casting-machine-tech.png",
 	icon_size = 128,
+	upgrade = true,
 	prerequisites =
     {
-	"advanced-metallurgy-1",
+	"strand-casting-1",
     },
     effects =
     {
 	  {
         type = "unlock-recipe",
-        recipe = "sintering-oven-2"
+        recipe = "strand-casting-machine-2"
       },
     },
     unit =
@@ -2394,25 +2840,27 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
 	{
     type = "technology",
-    name = "advanced-metallurgy-3",
-    icon = "__angelssmelting__/graphics/technology/sintering-oven-tech.png",
+    name = "strand-casting-3",
+    icon = "__angelssmelting__/graphics/technology/strand-casting-machine-tech.png",
 	icon_size = 128,
+	upgrade = true,
 	prerequisites =
     {
-	"advanced-metallurgy-2",
+	"strand-casting-2",
     },
     effects =
     {
 	  {
         type = "unlock-recipe",
-        recipe = "sintering-oven-3"
+        recipe = "strand-casting-machine-3"
       },
     },
     unit =
@@ -2421,25 +2869,28 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"production-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
 	{
     type = "technology",
-    name = "advanced-metallurgy-4",
-    icon = "__angelssmelting__/graphics/technology/sintering-oven-tech.png",
+    name = "strand-casting-4",
+    icon = "__angelssmelting__/graphics/technology/strand-casting-machine-tech.png",
 	icon_size = 128,
+	upgrade = true,
 	prerequisites =
     {
-	"advanced-metallurgy-3",
+	"strand-casting-3",
     },
     effects =
     {
 	  {
         type = "unlock-recipe",
-        recipe = "sintering-oven-4"
+        recipe = "strand-casting-machine-4"
       },
     },
     unit =
@@ -2448,8 +2899,11 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"production-science-pack", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2477,7 +2931,7 @@ data:extend(
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2486,9 +2940,9 @@ data:extend(
     name = "ore-processing-2",
     icon = "__angelssmelting__/graphics/technology/pellet-press-tech.png",
 	icon_size = 128,
+	upgrade = true,
 	prerequisites =
     {
-	"advanced-metallurgy-1",
 	"ore-processing-1",
     },
     effects =
@@ -2508,8 +2962,9 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
 	  },
-      time = 15
+      time = 30
     },
     order = "c-a"
     },
@@ -2518,6 +2973,7 @@ data:extend(
     name = "ore-processing-3",
     icon = "__angelssmelting__/graphics/technology/pellet-press-tech.png",
 	icon_size = 128,
+	upgrade = true,
 	prerequisites =
     {
 	"ore-processing-2",
@@ -2530,16 +2986,69 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "ore-processing-machine-4"
+        recipe = "pellet-press-2"
       },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"production-science-pack", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "ore-processing-4",
+    icon = "__angelssmelting__/graphics/technology/pellet-press-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"ore-processing-3",
+    },
+    effects =
+    {
 	  {
         type = "unlock-recipe",
-        recipe = "pellet-press-2"
+        recipe = "ore-processing-machine-4"
       },
 	  {
         type = "unlock-recipe",
         recipe = "pellet-press-3"
       },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"production-science-pack", 1},
+	  {"high-tech-science-pack", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "ore-processing-5",
+    icon = "__angelssmelting__/graphics/technology/pellet-press-tech.png",
+	icon_size = 128,
+	upgrade = true,
+	prerequisites =
+    {
+	"ore-processing-4",
+    },
+    effects =
+    {
 	  {
         type = "unlock-recipe",
         recipe = "pellet-press-4"
@@ -2551,8 +3060,100 @@ data:extend(
       ingredients = {
 	  {"science-pack-1", 1},
 	  {"science-pack-2", 1},
+	  {"science-pack-3", 1},
+	  {"production-science-pack", 1},
+	  {"high-tech-science-pack", 1},
 	  },
-      time = 15
+      time = 30
+    },
+    order = "c-a"
+    },
+--SUPPORT
+	{
+    type = "technology",
+    name = "angels-coolant-1",
+    icon = "__angelssmelting__/graphics/technology/coolant-tech.png",
+	icon_size = 128,
+	prerequisites =
+    {
+	"angels-metallurgy-1",
+	"water-treatment",
+	"angels-oil-processing",
+    },
+    effects =
+    {
+	  {
+        type = "unlock-recipe",
+        recipe = "cooling-tower"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant-used-filtration-1"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant-used-filtration-2"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant-clean"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant-cool-100"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant-cool-200"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant-cool-300"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  },
+      time = 30
+    },
+    order = "c-a"
+    },
+	{
+    type = "technology",
+    name = "angels-coolant-2",
+    icon = "__angelssmelting__/graphics/technology/coolant-tech.png",
+	icon_size = 128,
+	prerequisites =
+    {
+	"angels-coolant-1",
+    },
+    effects =
+    {
+	  -- {
+        -- type = "unlock-recipe",
+        -- recipe = "cooling-tower"
+      -- },
+	  {
+        type = "unlock-recipe",
+        recipe = "coolant-used-filtration-2"
+      },
+    },
+    unit =
+    {
+      count = 50,
+      ingredients = {
+	  {"science-pack-1", 1},
+	  {"science-pack-2", 1},
+	  },
+      time = 30
     },
     order = "c-a"
     },

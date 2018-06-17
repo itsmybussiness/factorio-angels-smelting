@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --CHROME
@@ -26,7 +28,7 @@ data:extend(
     ingredients ={{"processed-tungsten", 3}},
     results=
     {
-      {type="item", name="pellet-tungsten", amount=12},
+      {type="item", name="pellet-tungsten", amount=4},
     },
     order = "b",
     },
@@ -40,11 +42,11 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="tungsten-ore", amount=12},
-      {type="fluid", name="gas-hydrogen-chloride", amount=3},
+      {type="fluid", name="gas-hydrogen-chloride", amount=30},
 	},
     results=
     {
-      {type="fluid", name="liquid-tungstic-acid", amount=6},
+      {type="fluid", name="liquid-tungstic-acid", amount=60},
       {type="item", name="solid-calcium-chloride", amount=2},
     },
     main_product= "liquid-tungstic-acid",
@@ -58,12 +60,12 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="fluid", name="liquid-tungstic-acid", amount=12},
+      {type="fluid", name="liquid-tungstic-acid", amount=120},
 	},
     results=
     {
       {type="item", name="solid-tungsten-oxide", amount=24},
-      {type="fluid", name="water-purified", amount=6},
+      {type="fluid", name="water-purified", amount=60},
     },
     main_product= "solid-tungsten-oxide",
     order = "d",
@@ -77,7 +79,7 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="processed-tungsten", amount=8},
-      {type="fluid", name="gas-ammonia", amount=6},
+      {type="fluid", name="gas-ammonia", amount=60},
 	},
     results=
     {
@@ -94,7 +96,7 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="solid-ammonium-paratungstate", amount=24},
-      {type="fluid", name="gas-hydrogen", amount=6},
+      {type="fluid", name="gas-hydrogen", amount=60},
 	},
     results=
     {
@@ -110,8 +112,8 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="item", name="pellet-tungsten", amount=12},
-      {type="fluid", name="gas-ammonia", amount=6},
+      {type="item", name="pellet-tungsten", amount=4},
+      {type="fluid", name="gas-ammonia", amount=60},
 	},
     results=
     {
@@ -128,11 +130,11 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="solid-tungsten-oxide", amount=12},
-      {type="fluid", name="liquid-hydrofluoric-acid", amount=3},
+      {type="fluid", name="liquid-hydrofluoric-acid", amount=30},
 	},
     results=
     {
-      {type="fluid", name="gas-tungsten-hexafluoride", amount=6},
+      {type="fluid", name="gas-tungsten-hexafluoride", amount=60},
     },
     order = "g",
     },
@@ -144,7 +146,7 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="fluid", name="gas-tungsten-hexafluoride", amount=12},
+      {type="fluid", name="gas-tungsten-hexafluoride", amount=120},
 	},
     results=
     {
@@ -196,13 +198,17 @@ data:extend(
     category = "sintering",
 	subgroup = "angels-tungsten-casting",
     energy_required = 4,
-	enabled = "false",
-    ingredients ={
-      {type="item", name="casting-powder-tungsten", amount=12},
-	},
-    results=
+	normal =
     {
-      {type="item", name="angels-plate-tungsten", amount=12},
+	  enabled = "false",
+	  ingredients ={{type="item", name="casting-powder-tungsten", amount=12}},
+	  results={{type="item", name="angels-plate-tungsten", amount=12}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="item", name="casting-powder-tungsten", amount=15 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-tungsten", amount=12}},
     },
     order = "k",
     },

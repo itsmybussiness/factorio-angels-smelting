@@ -1,3 +1,5 @@
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
 data:extend(
 {
 --LEAD
@@ -26,7 +28,7 @@ data:extend(
     ingredients ={{"processed-lead", 3}},
     results=
     {
-      {type="item", name="pellet-lead", amount=12},
+      {type="item", name="pellet-lead", amount=4},
     },
     order = "b",
     },
@@ -40,12 +42,12 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="lead-ore", amount=24},
-      {type="fluid", name="gas-oxygen", amount=6},
+      {type="fluid", name="gas-oxygen", amount=60},
 	},
     results=
     {
       {type="item", name="ingot-lead", amount=24},
-	  {type="fluid", name="gas-sulfur-dioxide", amount=6},
+	  {type="fluid", name="gas-sulfur-dioxide", amount=60},
     },
     main_product= "ingot-lead",
     order = "c",
@@ -59,12 +61,12 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="processed-lead", amount=8},
-      {type="fluid", name="gas-oxygen", amount=12},
+      {type="fluid", name="gas-oxygen", amount=120},
 	},
     results=
     {
       {type="item", name="solid-lead-oxide", amount=24},
-	  {type="fluid", name="gas-sulfur-dioxide", amount=12},
+	  {type="fluid", name="gas-sulfur-dioxide", amount=120},
     },
     main_product= "solid-lead-oxide",
     order = "d",
@@ -95,15 +97,15 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-      {type="item", name="pellet-lead", amount=24},
+      {type="item", name="pellet-lead", amount=8},
       {type="item", name="solid-limestone", amount=2},
       {type="item", name="solid-coke", amount=2},
-      {type="fluid", name="gas-oxygen", amount=6},
+      {type="fluid", name="gas-oxygen", amount=60},
 	},
     results=
     {
       {type="item", name="anode-lead", amount=24},
-      {type="fluid", name="gas-sulfur-dioxide", amount=6},
+      {type="fluid", name="gas-sulfur-dioxide", amount=60},
     },
     main_product= "anode-lead",
     order = "f",
@@ -117,11 +119,11 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="quartz", amount=3},
-      {type="fluid", name="liquid-hydrofluoric-acid", amount=3},
+      {type="fluid", name="liquid-hydrofluoric-acid", amount=30},
 	},
     results=
     {
-      {type="fluid", name="liquid-hexafluorosilicic-acid", amount=6},
+      {type="fluid", name="liquid-hexafluorosilicic-acid", amount=60},
     },
     order = "g",
     },
@@ -134,7 +136,7 @@ data:extend(
 	enabled = "false",
     ingredients ={
       {type="item", name="anode-lead", amount=12},
-      {type="fluid", name="liquid-hexafluorosilicic-acid", amount=3},
+      {type="fluid", name="liquid-hexafluorosilicic-acid", amount=30},
 	},
     results=
     {
@@ -157,7 +159,7 @@ data:extend(
 	},
     results=
     {
-      {type="fluid", name="liquid-molten-lead", amount=12},
+      {type="fluid", name="liquid-molten-lead", amount=120},
     },
     order = "i",
     },
@@ -168,13 +170,17 @@ data:extend(
     category = "casting",
 	subgroup = "angels-lead-casting",
     energy_required = 4,
-	enabled = "false",
-    ingredients ={
-      {type="fluid", name="liquid-molten-lead", amount=4},
-	},
-    results=
+	normal =
     {
-      {type="item", name="angels-plate-lead", amount=4},
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-lead", amount=40}},
+	  results={{type="item", name="angels-plate-lead", amount=4}},
+    },
+    expensive =
+    {
+	  enabled = "false",
+	  ingredients ={{type="fluid", name="liquid-molten-lead", amount=50 * intermediatemulti}},
+	  results={{type="item", name="angels-plate-lead", amount=4}},
     },
     order = "j",
     },

@@ -3,7 +3,17 @@
   {
     type = "item",
     name = "blast-furnace",
-    icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     flags = {"goes-to-quickbar"},
     subgroup = "angels-blast-furnace",
     order = "a[blast-furnace]",
@@ -13,7 +23,17 @@
   {
     type = "assembling-machine",
     name = "blast-furnace",
-    icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "blast-furnace"},
 	fast_replaceable_group = "blast-furnace",
@@ -87,7 +107,17 @@
     {
     type = "item",
     name = "blast-furnace-2",
-    icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     flags = {"goes-to-quickbar"},
     subgroup = "angels-blast-furnace",
     order = "b[blast-furnace-2]",
@@ -97,7 +127,17 @@
     {
     type = "assembling-machine",
     name = "blast-furnace-2",
-    icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "blast-furnace-2"},
 	fast_replaceable_group = "blast-furnace",
@@ -171,7 +211,17 @@
     {
     type = "item",
     name = "blast-furnace-3",
-    icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     flags = {"goes-to-quickbar"},
     subgroup = "angels-blast-furnace",
     order = "c[blast-furnace-3]",
@@ -181,7 +231,17 @@
     {
     type = "assembling-machine",
     name = "blast-furnace-3",
-    icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "blast-furnace-3"},
 	fast_replaceable_group = "blast-furnace",
@@ -255,7 +315,17 @@
     {
     type = "item",
     name = "blast-furnace-4",
-    icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     flags = {"goes-to-quickbar"},
     subgroup = "angels-blast-furnace",
     order = "d[blast-furnace-4]",
@@ -265,7 +335,17 @@
     {
     type = "assembling-machine",
     name = "blast-furnace-4",
-    icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/blast-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "blast-furnace-4"},
 	fast_replaceable_group = "blast-furnace",

@@ -3,7 +3,17 @@ data:extend(
   {
     type = "item",
     name = "ore-processing-machine",
-    icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-processing-machine",
     order = "a[ore-processing-machine]",
@@ -13,7 +23,17 @@ data:extend(
    {
     type = "assembling-machine",
     name = "ore-processing-machine",
-    icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "ore-processing-machine"},
 	fast_replaceable_group = "ore-processing-machine",
@@ -69,7 +89,17 @@ data:extend(
     {
     type = "item",
     name = "ore-processing-machine-2",
-    icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-processing-machine",
     order = "b[ore-processing-machine-2]",
@@ -79,7 +109,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "ore-processing-machine-2",
-    icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "ore-processing-machine-2"},
 	fast_replaceable_group = "ore-processing-machine",
@@ -135,7 +175,17 @@ data:extend(
     {
     type = "item",
     name = "ore-processing-machine-3",
-    icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-processing-machine",
     order = "c[ore-processing-machine-3]",
@@ -145,7 +195,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "ore-processing-machine-3",
-    icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "ore-processing-machine-3"},
 	fast_replaceable_group = "ore-processing-machine",
@@ -201,7 +261,17 @@ data:extend(
 	{
     type = "item",
     name = "ore-processing-machine-4",
-    icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-processing-machine",
     order = "d[ore-processing-machine-4]",
@@ -211,7 +281,17 @@ data:extend(
 	{
     type = "assembling-machine",
     name = "ore-processing-machine-4",
-    icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/ore-processing-machine.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "ore-processing-machine-4"},
 	fast_replaceable_group = "ore-processing-machine",

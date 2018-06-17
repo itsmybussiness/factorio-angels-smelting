@@ -3,7 +3,17 @@ data:extend(
   {
     type = "item",
     name = "induction-furnace",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-induction-furnace",
     order = "a[induction-furnace]",
@@ -13,7 +23,17 @@ data:extend(
    {
     type = "assembling-machine",
     name = "induction-furnace",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "induction-furnace"},
 	fast_replaceable_group = "induction-furnace",
@@ -87,7 +107,17 @@ data:extend(
     {
     type = "item",
     name = "induction-furnace-2",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-induction-furnace",
     order = "b[induction-furnace-2]",
@@ -97,7 +127,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "induction-furnace-2",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "induction-furnace-2"},
 	fast_replaceable_group = "induction-furnace",
@@ -144,14 +184,6 @@ data:extend(
 	},
     fluid_boxes =
     {
-      -- {
-        -- production_type = "input",
-        -- pipe_picture = assembler3pipepictures(),
-        -- pipe_covers = pipecoverspictures(),
-        -- base_area = 10,
-        -- base_level = -1,
-        -- pipe_connections = {{ type="input", position = {0, 2} }}
-      -- },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
@@ -171,7 +203,17 @@ data:extend(
     {
     type = "item",
     name = "induction-furnace-3",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-induction-furnace",
     order = "c[induction-furnace-3]",
@@ -181,7 +223,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "induction-furnace-3",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "induction-furnace-3"},
 	fast_replaceable_group = "induction-furnace",
@@ -228,14 +280,6 @@ data:extend(
 	},
     fluid_boxes =
     {
-      -- {
-        -- production_type = "input",
-        -- pipe_picture = assembler3pipepictures(),
-        -- pipe_covers = pipecoverspictures(),
-        -- base_area = 10,
-        -- base_level = -1,
-        -- pipe_connections = {{ type="input", position = {0, 2} }}
-      -- },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
@@ -255,7 +299,17 @@ data:extend(
 	{
     type = "item",
     name = "induction-furnace-4",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-induction-furnace",
     order = "d[induction-furnace-4]",
@@ -265,7 +319,17 @@ data:extend(
 	{
     type = "assembling-machine",
     name = "induction-furnace-4",
-    icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/induction-furnace.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},	
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "induction-furnace-4"},
 	fast_replaceable_group = "induction-furnace",
@@ -312,14 +376,6 @@ data:extend(
 	},
     fluid_boxes =
     {
-      -- {
-        -- production_type = "input",
-        -- pipe_picture = assembler3pipepictures(),
-        -- pipe_covers = pipecoverspictures(),
-        -- base_area = 10,
-        -- base_level = -1,
-        -- pipe_connections = {{ type="input", position = {0, 2} }}
-      -- },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),

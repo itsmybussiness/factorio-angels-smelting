@@ -3,7 +3,17 @@ data:extend(
   {
     type = "item",
     name = "sintering-oven",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-sintering-oven",
     order = "a[sintering-oven]",
@@ -13,7 +23,17 @@ data:extend(
    {
     type = "assembling-machine",
     name = "sintering-oven",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_1.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "sintering-oven"},
 	fast_replaceable_group = "sintering-oven",
@@ -69,7 +89,17 @@ data:extend(
     {
     type = "item",
     name = "sintering-oven-2",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-sintering-oven",
     order = "b[sintering-oven-2]",
@@ -79,7 +109,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "sintering-oven-2",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_2.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "sintering-oven-2"},
 	fast_replaceable_group = "sintering-oven",
@@ -135,7 +175,17 @@ data:extend(
     {
     type = "item",
     name = "sintering-oven-3",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-sintering-oven",
     order = "c[sintering-oven-3]",
@@ -145,7 +195,17 @@ data:extend(
     {
     type = "assembling-machine",
     name = "sintering-oven-3",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_3.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "sintering-oven-3"},
 	fast_replaceable_group = "sintering-oven",
@@ -201,7 +261,17 @@ data:extend(
 	{
     type = "item",
     name = "sintering-oven-4",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-sintering-oven",
     order = "d[sintering-oven-4]",
@@ -211,7 +281,17 @@ data:extend(
 	{
     type = "assembling-machine",
     name = "sintering-oven-4",
-    icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+	icons = {
+		{
+			icon = "__angelssmelting__/graphics/icons/sintering-oven.png",
+		},
+		{
+			icon = "__angelspetrochem__/graphics/icons/num_4.png",
+			tint = {r = 0.8, g = 0.8, b = 0.8, a = 0.5},
+			scale = 0.32,
+			shift = {-12, -12},
+		}
+	},
 	flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "sintering-oven-4"},
 	fast_replaceable_group = "sintering-oven",
