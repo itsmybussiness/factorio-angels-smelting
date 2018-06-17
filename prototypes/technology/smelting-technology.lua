@@ -3100,10 +3100,6 @@ data:extend(
       },
 	  {
         type = "unlock-recipe",
-        recipe = "coolant-clean"
-      },
-	  {
-        type = "unlock-recipe",
         recipe = "coolant-cool-100"
       },
 	  {

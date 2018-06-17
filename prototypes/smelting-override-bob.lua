@@ -58,6 +58,10 @@ OV.disable_recipe({ "tungstic-acid", "tungsten-oxide", "powdered-tungsten", "bob
 OV.add_prereq( "zinc-processing", "angels-brass-smelting-1" )
 OV.disable_recipe({ "bob-zinc-plate", "brass-alloy", "gunmetal-alloy" })
 
+--MORE UNLOCKS
+OV.remove_unlock( "alloy-processing-1", "mixing-furnace" )
+OV.add_unlock( "electronics", "mixing-furnace" )
+
 --DISABLE RECIPES
 OV.disable_recipe({ "angels-wire-platinum" })
 OV.disable_recipe({ "angels-wire-silver", "angels-wire-coil-silver-casting", "angels-wire-coil-silver-casting-fast", "angels-wire-coil-silver-converting" })
@@ -67,7 +71,9 @@ if data.raw.item["tinned-copper-cable"] then
 	OV.global_replace_item("angels-wire-tin", "tinned-copper-cable")
 	OV.global_replace_item("angels-wire-gold", "gilded-copper-cable")
 	OV.global_replace_item("angels-solder", "solder")
+	table.insert(data.raw["item"]["angels-solder"].flags,"hidden")
 	OV.disable_recipe({ "solder-alloy" })
+	
 	OV.patch_recipes({
       { name = "angels-glass-fiber-board", results = { 
          {"!!"},

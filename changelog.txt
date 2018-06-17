@@ -1,3 +1,8 @@
+--0.3.11
+-changed coolant cycle: removed one intermediate recipe (will break current setups)
+-shifted metal mixing furnace to electronics tech
+-hide extra solder item if not used
+
 --0.3.10
 -added recipe for cooling down steam to water
 -changed crafting category for convertig cable coils to bobs electronic machines

@@ -36,38 +36,21 @@ data:extend(
 	},
 	{
     type = "recipe",
-    name = "coolant-clean",
-    category = "chemistry",
-	subgroup = "coolant",
-    energy_required = 4,
-	enabled = "false",
-    ingredients ={
-	  {type="fluid", name="liquid-coolant-clean", amount=80, maximum_temperature = 50},
-	  {type="fluid", name="water", amount=10, maximum_temperature = 25},
-	},
-    results=
-    {
-	  {type="fluid", name="liquid-coolant", amount=90, temperature = 25},
-    },
-	    order = "c",
-	},
-	{
-    type = "recipe",
     name = "coolant-used-filtration-1",
     category = "filtering",
 	subgroup = "coolant",
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 290},
+	  {type="fluid", name="liquid-coolant-used", amount=100, maximum_temperature = 50},
 	  {type="item", name="filter-coal", amount=1},
 	},
     results=
     {
-	  {type="fluid", name="liquid-coolant-clean", amount=80, temperature = 295},
+	  {type="fluid", name="liquid-coolant", amount=80, temperature = 25},
 	  {type="item", name="filter-frame", amount=1},
     },
-	main_product= "liquid-coolant-clean",
+	main_product= "liquid-coolant",
     order = "d",
 	},
 	{
@@ -78,15 +61,15 @@ data:extend(
     energy_required = 4,
 	enabled = "false",
     ingredients ={
-	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 290},
+	  {type="fluid", name="liquid-coolant-used", amount=100, maximum_temperature = 50},
 	  {type="item", name="filter-ceramic", amount=1},
 	},
     results=
     {
-	  {type="fluid", name="liquid-coolant-clean", amount=80, temperature = 295},
+	  {type="fluid", name="liquid-coolant", amount=80, temperature = 25},
 	  {type="item", name="filter-ceramic-used", amount=1},
     },
-	main_product= "liquid-coolant-clean",
+	main_product= "liquid-coolant",
     order = "d",
 	},
 --COOLING TOWER
@@ -98,18 +81,18 @@ data:extend(
     energy_required = 2,
 	enabled = "false",
     ingredients ={
-	  {type="fluid", name="liquid-coolant-clean", amount=100, minimum_temperature = 285},
+	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 285},
 	  {type="fluid", name="water", amount=50},
 	},
     results=
     {
-	  {type="fluid", name="liquid-coolant-clean", amount=100, temperature = 200},
+	  {type="fluid", name="liquid-coolant-used", amount=100, temperature = 200},
 	  {type="fluid", name="steam", amount=50, temperature = 175},
     },
 	--main_product= "liquid-coolant-clean",
 	icons = {
 		{
-			icon = "__angelssmelting__/graphics/icons/liquid-coolant-clean.png",
+			icon = "__angelssmelting__/graphics/icons/liquid-coolant-used.png",
 		},
 		{
 			icon = "__angelspetrochem__/graphics/icons/num_3.png",
@@ -128,18 +111,18 @@ data:extend(
     energy_required = 2,
 	enabled = "false",
     ingredients ={
-	  {type="fluid", name="liquid-coolant-clean", amount=100, minimum_temperature = 185},
+	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 185},
 	  {type="fluid", name="water", amount=50},
 	},
     results=
     {
-	  {type="fluid", name="liquid-coolant-clean", amount=100, temperature = 100},
+	  {type="fluid", name="liquid-coolant-used", amount=100, temperature = 100},
 	  {type="fluid", name="steam", amount=50, temperature = 150},
     },
 	--main_product= "liquid-coolant-clean",
 	icons = {
 		{
-			icon = "__angelssmelting__/graphics/icons/liquid-coolant-clean.png",
+			icon = "__angelssmelting__/graphics/icons/liquid-coolant-used.png",
 		},
 		{
 			icon = "__angelspetrochem__/graphics/icons/num_2.png",
@@ -158,18 +141,18 @@ data:extend(
     energy_required = 2,
 	enabled = "false",
     ingredients ={
-	  {type="fluid", name="liquid-coolant-clean", amount=100, minimum_temperature = 85},
+	  {type="fluid", name="liquid-coolant-used", amount=100, minimum_temperature = 85},
 	  {type="fluid", name="water", amount=50},
 	},
     results=
     {
-	  {type="fluid", name="liquid-coolant-clean", amount=100, temperature = 25},
+	  {type="fluid", name="liquid-coolant-used", amount=100, temperature = 25},
 	  {type="fluid", name="steam", amount=50, temperature = 125},
     },
 	--main_product= "liquid-coolant-clean",
 	icons = {
 		{
-			icon = "__angelssmelting__/graphics/icons/liquid-coolant-clean.png",
+			icon = "__angelssmelting__/graphics/icons/liquid-coolant-used.png",
 		},
 		{
 			icon = "__angelspetrochem__/graphics/icons/num_1.png",

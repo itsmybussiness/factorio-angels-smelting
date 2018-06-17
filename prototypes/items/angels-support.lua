@@ -26,18 +26,5 @@ data:extend(
     flow_to_energy_ratio = 0.59,
 	auto_barrel = false
 },
-{
-    type = "fluid",
-    name = "liquid-coolant-clean",
-    icon = "__angelssmelting__/graphics/icons/liquid-coolant-clean.png",
-	default_temperature = 25,
-    heat_capacity = "0.1KJ",
-    base_color = {r = 129/255, g = 156/255, b = 199/255},
-    flow_color = {r = 129/255, g = 156/255, b = 199/255},
-    max_temperature = 300,
-	pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
-	auto_barrel = false
-},
 }
 )
