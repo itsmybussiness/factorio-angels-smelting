@@ -1,5 +1,6 @@
 data:extend(
 {
+--RESOURCE CATEGORIES
   {
     type = "recipe-category",
     name = "ore-processing",
@@ -39,6 +40,13 @@ data:extend(
   {
     type = "recipe-category",
     name = "cooling",
+  },
+--SUBGROUPS
+  {
+    type = "item-subgroup",
+    name = "fluids-smelting",
+	group = "fluids",
+	order = "d",
   },
   {
     type = "item-group",

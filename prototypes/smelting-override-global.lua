@@ -2,15 +2,19 @@ local OV = angelsmods.functions.OV
 
 --OVERRIDE FOR BASE
 	data.raw["item"]["iron-plate"].icon = "__angelssmelting__/graphics/icons/plate-iron.png"
+	data.raw["item"]["iron-plate"].icon_size = 32
 	data.raw["item"]["iron-plate"].subgroup = "angels-iron-casting"
 	data.raw["item"]["iron-plate"].order = "a"
 	data.raw["item"]["steel-plate"].icon = "__angelssmelting__/graphics/icons/plate-steel.png"
+	data.raw["item"]["steel-plate"].icon_size = 32
 	data.raw["item"]["steel-plate"].subgroup = "angels-steel-casting"
 	data.raw["item"]["steel-plate"].order = "a"
 	data.raw["item"]["copper-plate"].icon = "__angelssmelting__/graphics/icons/plate-copper.png"
+	data.raw["item"]["copper-plate"].icon_size = 32
 	data.raw["item"]["copper-plate"].subgroup = "angels-copper-casting"
 	data.raw["item"]["copper-plate"].order = "a"
 	data.raw["item"]["copper-cable"].icon = "__angelssmelting__/graphics/icons/wire-copper.png"
+	data.raw["item"]["copper-cable"].icon_size = 32
 	data.raw["item"]["copper-cable"].subgroup = "angels-copper-casting"
 	data.raw["item"]["copper-cable"].order = "e"
 	angelsmods.functions.OV.global_replace_icon("__base__/graphics/icons/plate/iron-plate.png", "__angelssmelting__/graphics/icons/plate-iron.png")
@@ -80,9 +84,9 @@ if bobmods and bobmods.plates then
 	data.raw["item"]["bronze-alloy"].icon = "__angelssmelting__/graphics/icons/plate-bronze.png"
 	data.raw["item"]["bronze-alloy"].subgroup = "angels-alloys-casting"
 	data.raw["item"]["bronze-alloy"].order = "b"
-	data.raw["item"]["electrum-alloy"].icon = "__angelssmelting__/graphics/icons/plate-electrum.png"
-	data.raw["item"]["electrum-alloy"].subgroup = "angels-alloys-casting"
-	data.raw["item"]["electrum-alloy"].order = "c"
+	-- data.raw["item"]["electrum-alloy"].icon = "__angelssmelting__/graphics/icons/plate-electrum.png"
+	-- data.raw["item"]["electrum-alloy"].subgroup = "angels-alloys-casting"
+	-- data.raw["item"]["electrum-alloy"].order = "c"
 	data.raw["item"]["gunmetal-alloy"].icon = "__angelssmelting__/graphics/icons/plate-gunmetal.png"
 	data.raw["item"]["gunmetal-alloy"].subgroup = "angels-alloys-casting"
 	data.raw["item"]["gunmetal-alloy"].order = "d"

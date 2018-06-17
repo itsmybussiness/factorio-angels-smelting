@@ -1,0 +1,31 @@
+local OV = angelsmods.functions.OV
+local intermediatemulti = angelsmods.marathon.intermediatemulti
+
+table.insert(data.raw["item"]["angels-plate-tin"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-silver"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-lead"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-glass"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-gold"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-nickel"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-zinc"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-aluminium"].flags,"hidden")
+table.insert(data.raw["item"]["solid-lead-oxide"].flags,"hidden")
+table.insert(data.raw["item"]["solid-aluminium-oxide"].flags,"hidden")
+table.insert(data.raw["item"]["solid-tungsten-oxide"].flags,"hidden")
+table.insert(data.raw["item"]["powder-tungsten"].flags,"hidden")
+table.insert(data.raw["item"]["solid-cobalt-oxide"].flags,"hidden")
+table.insert(data.raw["item"]["solid-silver-nitrate"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-titanium"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-tungsten"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-silicon"].flags,"hidden")
+table.insert(data.raw["item"]["angels-plate-cobalt"].flags,"hidden")
+
+--REPLACE TECHS
+OV.disable_technology({"angels-aluminium-smelting-1", "angels-aluminium-smelting-2", "angels-aluminium-smelting-3"})
+OV.disable_technology({"angels-chrome-smelting-1", "angels-chrome-smelting-2", "angels-chrome-smelting-3"})
+OV.disable_technology({"angels-cobalt-smelting-1", "angels-cobalt-smelting-2", "angels-cobalt-smelting-3"})
+OV.disable_technology({"angels-copper-smelting-1", "angels-copper-smelting-2", "angels-copper-smelting-3"})
+OV.disable_technology({"angels-glass-smelting-1", "angels-glass-smelting-2", "angels-glass-smelting-3"})
+OV.disable_technology({"angels-gold-smelting-1", "angels-gold-smelting-2", "angels-gold-smelting-3"})
+OV.disable_technology({"angels-lead-smelting-1", "angels-lead-smelting-2", "angels-lead-smelting-3"})
+OV.disable_technology({"angels-manganese-smelting-1", "angels-manganese-smelting-2", "angels-manganese-smelting-3"})

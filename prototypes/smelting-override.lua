@@ -60,7 +60,7 @@ if angelsmods.industries or (bobmods and bobmods.plates) then
 		table.insert(data.raw["item"]["angels-wire-platinum"].flags,"hidden")
 	end
 else
-	--require("prototypes.refining-override-vanilla")
+	require("prototypes.refining-override-vanilla")
 end
 
 --ADDED RECIPES
