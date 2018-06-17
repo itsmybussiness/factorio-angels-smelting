@@ -53,7 +53,11 @@ if angelsmods.industries or (bobmods and bobmods.plates) then
 	else
 		--OV.disable_recipe({ "angels-wire-platinum" })
 		--OV.disable_recipe({ "angels-wire-silver", "angels-wire-coil-silver-casting", "angels-wire-coil-silver-casting-fast", "angels-wire-coil-silver-converting" })
-		OV.disable_technology({ "angels-platinum-smelting-1", "angels-platinum-smelting-2", "angels-platinum-smelting-3" })  		
+		OV.disable_technology({ "angels-platinum-smelting-1", "angels-platinum-smelting-2", "angels-platinum-smelting-3" })
+		table.insert(data.raw["item"]["angels-wire-tin"].flags,"hidden")
+		table.insert(data.raw["item"]["angels-wire-silver"].flags,"hidden")
+		table.insert(data.raw["item"]["angels-wire-gold"].flags,"hidden")
+		table.insert(data.raw["item"]["angels-wire-platinum"].flags,"hidden")
 	end
 else
 	--require("prototypes.refining-override-vanilla")
